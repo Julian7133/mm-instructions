@@ -1,0 +1,42 @@
+{
+  "id": "development-code-review",
+  "title": "AI-Assisted Code Review",
+  "description": "Comprehensive code review strategies using AI tools",
+  "category": "development",
+  "difficulty": "advanced",
+  "timeEstimate": "30 minutes",
+  "aiScore": 9,
+  "tools": ["Claude", "ChatGPT", "GitHub Copilot"],
+  "languages": {
+    "en": {
+      "steps": [
+        {
+          "title": "Code Quality Analysis",
+          "description": "Analyze code for best practices, patterns, and potential issues",
+          "tool": "Claude",
+          "toolReason": "Superior code analysis and pattern recognition capabilities",
+          "timeEstimate": "15 minutes",
+          "prompt": "Review this code for: 1) Code quality and best practices 2) Potential bugs or security issues 3) Performance optimizations 4) Readability improvements. Code: [paste code here]",
+          "tips": [
+            "Focus on maintainability and readability",
+            "Check for proper error handling",
+            "Verify security best practices"
+          ]
+        },
+        {
+          "title": "Documentation and Testing Review",
+          "description": "Ensure proper documentation and test coverage",
+          "tool": "ChatGPT",
+          "toolReason": "Excellent at generating documentation and test suggestions",
+          "timeEstimate": "15 minutes",
+          "prompt": "Analyze this code and suggest: 1) Missing documentation 2) Additional test cases needed 3) Inline comment improvements. Consider the target audience: [team/public/enterprise]. Code: [paste code here]",
+          "tips": [
+            "Ensure public APIs are well documented",
+            "Check for edge case test coverage",
+            "Verify code comments explain 'why', not 'what'"
+          ]
+        }
+      ]
+    }
+  }
+}
