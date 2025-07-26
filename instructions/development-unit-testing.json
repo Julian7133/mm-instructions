@@ -1,41 +1,26 @@
 {
   "id": "development-unit-testing",
   "title": "AI-Assisted Unit Testing and Test Case Generation",
-  "description": "Systematically create comprehensive unit tests with optimal coverage and maintainable test architecture",
+  "description": "Create comprehensive unit tests with optimal coverage and maintainable test architecture",
   "category": "development",
   "difficulty": "intermediate",
-  "timeEstimate": "35 minutes",
-  "aiScore": 9,
-  "tools": ["Claude-4-Sonnet", "ChatGPT-4", "GitHub-Copilot"],
+  "timeEstimate": "20 minutes",
+  "aiScore": 8,
+  "tools": ["Claude-4-Sonnet", "ChatGPT-4"],
+  "source": "Based on TDD practices from Martin Fowler's blog and testing best practices from Kent Beck",
   "languages": {
     "en": {
       "steps": [
         {
-          "title": "Test Strategy Planning and Coverage Analysis",
-          "description": "Analyze code structure and design comprehensive testing strategy with optimal coverage approach",
+          "title": "Test Strategy and Implementation",
+          "description": "Analyze code and generate comprehensive test suite",
           "tool": "Claude-4-Sonnet",
-          "toolReason": "Superior code analysis capabilities essential for understanding complex logic patterns and identifying comprehensive test scenarios. Best for systematic testing strategy.",
+          "toolReason": "Superior code analysis and systematic testing approach",
           "timeEstimate": "20 minutes",
-          "prompt": "You are an experienced software engineer and testing specialist with deep expertise in test-driven development, code coverage analysis, and testing best practices. Think step by step through this code to design the most effective testing approach.\n\n<instructions>\nAnalyze the provided code and develop a comprehensive testing strategy:\n\n1. **Code Analysis**: Understand function purpose, inputs, outputs, and edge cases\n2. **Test Categories**: Identify unit, integration, and edge case scenarios\n3. **Coverage Planning**: Ensure all code paths and branches are tested\n4. **Dependency Management**: Plan mocking strategy for external dependencies\n5. **Test Data Design**: Create representative and edge-case test data\n6. **Assertion Strategy**: Define what constitutes success/failure for each test\n\nTake time to think through potential edge cases and error conditions. If the code's purpose or expected behavior isn't clear, ask specific clarifying questions about requirements and expected functionality.\n</instructions>\n\n<code_to_test>\n[Paste your function/class/module code here]\n</code_to_test>\n\n<context>\nProgramming language: [language and version]\nTesting framework: [Jest/pytest/JUnit/etc.]\nExisting dependencies: [libraries the code uses]\nPerformance requirements: [any speed/memory constraints]\nError handling approach: [how errors should be handled]\n</context>\n\n<thinking>\n[Your step-by-step analysis of the code structure and testing needs]\n</thinking>\n\n<test_strategy>\n**Function Purpose**: [Clear description of what the code should do]\n**Input Types**: [All possible input types and ranges]\n**Output Types**: [Expected return values and formats]\n**Side Effects**: [Any state changes or external interactions]\n**Error Conditions**: [Ways the function could fail]\n</test_strategy>\n\n<test_categories>\n**Happy Path Tests**: [Normal execution scenarios]\n**Edge Case Tests**: [Boundary conditions and unusual inputs]\n**Error Handling Tests**: [Invalid inputs and failure conditions]\n**Performance Tests**: [If applicable - timing, memory usage]\n**Integration Tests**: [Testing with real dependencies]\n</test_categories>\n\n<mock_strategy>\n**Dependencies to Mock**: [External services, APIs, file system, etc.]\n**Mock Approach**: [How to simulate each dependency]\n**Test Data**: [Specific inputs and expected outputs for each test case]\n</mock_strategy>\n\n<coverage_plan>\n**Line Coverage Target**: [percentage goal]\n**Branch Coverage**: [conditional logic to test]\n**Function Coverage**: [all public methods tested]\n**Critical Paths**: [Most important scenarios to validate]\n</coverage_plan>\n\n<clarifying_questions>\n[Specific questions about requirements, edge cases, or expected behavior]\n</clarifying_questions>",
+          "prompt": "You are a senior software engineer specializing in testing. Think step by step to create comprehensive tests.\n\nAnalyze this code and create tests:\n1. Identify all code paths and edge cases\n2. Design test data for normal and boundary conditions\n3. Plan mocking strategy for dependencies\n4. Write complete test implementation\n\nCode to test: [paste your function/class]\nTesting framework: [Jest/pytest/JUnit/etc.]\nLanguage: [programming language]\n\nProvide:\n**Test Strategy**: [what needs testing and why]\n**Test Cases**: [specific scenarios to cover]\n**Mock Strategy**: [what to mock and how]\n**Complete Test Code**: [working test implementation]\n**Coverage Analysis**: [expected coverage and critical paths]\n\nEnsure tests are:\n- Independent and repeatable\n- Fast execution\n- Clear failure messages",
           "tips": [
-            "Focus on testing behavior, not implementation details",
-            "Include both positive and negative test cases",
-            "If the AI suggests tests that seem irrelevant, clarify the function's actual purpose",
-            "Consider what could realistically go wrong in production environments"
-          ]
-        },
-        {
-          "title": "Test Implementation and Optimization",
-          "description": "Write complete, maintainable test code with proper structure and clear assertions",
-          "tool": "Claude-4-Sonnet",
-          "toolReason": "Excellent at generating clean, idiomatic test code with proper structure and following language-specific testing conventions",
-          "timeEstimate": "15 minutes",
-          "prompt": "You are a senior software engineer specializing in test automation and clean code practices. Write comprehensive, maintainable test code that follows industry best practices and testing conventions.\n\n<instructions>\nImplement the complete test suite based on the testing strategy:\n\n1. **Test Structure**: Organize tests with clear naming and logical grouping\n2. **Setup/Teardown**: Implement proper test environment preparation\n3. **Assertions**: Write clear, specific assertions with helpful error messages\n4. **Test Data**: Create comprehensive test data sets\n5. **Code Quality**: Ensure tests are readable, maintainable, and fast\n6. **Documentation**: Add comments explaining complex test scenarios\n\nIf any test scenarios seem unclear or if there are missing framework-specific details, ask for clarification on testing conventions or requirements.\n</instructions>\n\n<test_strategy>\n[Paste the test strategy from previous step]\n</test_strategy>\n\n<framework_preferences>\nTesting framework: [specific framework and version]\nAssertion style: [expect/assert/should style preference]\nMocking library: [specific mocking tool]\nTest organization: [describe/it vs class-based vs other]\n</framework_preferences>\n\n<code_standards>\nNaming convention: [test naming pattern]\nFile organization: [how to structure test files]\nComment style: [when and how to add comments]\nPerformance requirements: [test execution time limits]\n</code_standards>\n\nImplement the complete test suite:\n\n```[language]\n// Test file: [filename]\n// Description: [purpose of these tests]\n\n[Include all necessary imports and setup]\n\n// Test data and constants\n[Define test data sets]\n\n// Test suite organization\n[Organized test groups with clear descriptions]\n\n// Individual test cases\n[Complete test implementations with:]:\n- Clear test names that describe the scenario\n- Proper setup and teardown\n- Specific assertions with helpful messages\n- Edge cases and error conditions\n- Performance considerations if needed\n```\n\n**TEST EXECUTION NOTES**\n- How to run: [command to execute tests]\n- Expected output: [what successful execution looks like]\n- Debugging tips: [how to troubleshoot failing tests]\n\n**MAINTENANCE GUIDELINES**\n- When to update: [triggers for test updates]\n- Refactoring approach: [how to keep tests maintainable]\n- Coverage monitoring: [how to track and maintain coverage]",
-          "tips": [
-            "Write test names that clearly describe the scenario being tested",
-            "Keep individual tests focused on one specific behavior",
-            "Make tests independent - they should work in any order",
-            "If tests are failing unexpectedly, check for proper mocking and test isolation"
+            "Test behavior, not implementation details",
+            "Include both positive and negative test cases"
           ]
         }
       ]

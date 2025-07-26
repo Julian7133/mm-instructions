@@ -1,41 +1,26 @@
 {
   "id": "analysis-data-visualization",
   "title": "AI-Powered Data Visualization and Chart Creation",
-  "description": "Create compelling, insightful data visualizations with optimal chart selection and design principles",
+  "description": "Create compelling data visualizations with optimal chart selection and design principles",
   "category": "analysis",
   "difficulty": "intermediate",
-  "timeEstimate": "35 minutes",
-  "aiScore": 9,
-  "tools": ["Claude-4-Opus", "ChatGPT-4", "Gemini-2.5-Pro"],
+  "timeEstimate": "20 minutes",
+  "aiScore": 8,
+  "tools": ["Claude-4-Opus", "ChatGPT-4"],
+  "source": "Based on data visualization principles from Edward Tufte's work and Storytelling with Data",
   "languages": {
     "en": {
       "steps": [
         {
-          "title": "Data Analysis and Visualization Strategy",
-          "description": "Analyze data structure and develop comprehensive visualization strategy for maximum insight communication",
+          "title": "Data Visualization Strategy and Implementation",
+          "description": "Analyze data and create effective visualizations for insight communication",
           "tool": "Claude-4-Opus",
-          "toolReason": "Essential for complex data analysis and strategic visualization planning. Superior at identifying patterns and determining optimal visual representation methods.",
+          "toolReason": "Superior at identifying patterns and determining optimal visual representation",
           "timeEstimate": "20 minutes",
-          "prompt": "You are an experienced data analyst and visualization specialist with expertise in statistical analysis, visual design principles, and data storytelling. Think step by step through this data to design the most effective visualization approach.\n\n<instructions>\nAnalyze the data and develop a comprehensive visualization strategy:\n\n1. **Data Structure Analysis**: Understand data types, distributions, and relationships\n2. **Insight Identification**: Discover key patterns, trends, and anomalies\n3. **Audience Consideration**: Determine optimal visual approaches for the target audience\n4. **Chart Type Selection**: Choose most effective visualization methods for each insight\n5. **Design Strategy**: Plan color schemes, layouts, and interactive elements\n6. **Narrative Development**: Create logical flow for presenting insights\n\nTake time to think through the data systematically. If the data's purpose, audience, or context isn't clear, ask specific clarifying questions to ensure the most effective visualizations.\n</instructions>\n\n<dataset_info>\n[Describe your data or paste sample data]\nData size: [number of rows/records]\nVariables: [list of columns/fields with data types]\nTime period: [date range if applicable]\nData source: [where the data comes from]\nData quality: [any known issues or limitations]\n</dataset_info>\n\n<visualization_context>\nPurpose: [reporting/exploration/presentation/decision-making]\nAudience: [executives/analysts/general public/technical team]\nDelivery format: [dashboard/report/presentation/interactive]\nTechnical constraints: [tools available, file size limits, etc.]\nUpdate frequency: [static/monthly/real-time]\n</visualization_context>\n\n<thinking>\n[Your step-by-step analysis of the data patterns and visualization needs]\n</thinking>\n\n<data_insights>\n**Key Patterns Identified**:\n- [Most significant trends or patterns]\n- [Interesting correlations or relationships]\n- [Notable outliers or anomalies]\n- [Seasonal or cyclical patterns]\n\n**Statistical Summary**:\n- [Central tendencies and distributions]\n- [Variance and spread characteristics]\n- [Missing data or quality issues]\n</data_insights>\n\n<visualization_strategy>\n**Primary Story**: [Main message the visualizations should communicate]\n**Secondary Insights**: [Supporting points to highlight]\n**Visual Hierarchy**: [Order of importance for different charts]\n**Interaction Design**: [How users should explore the data]\n</visualization_strategy>\n\n<chart_recommendations>\n**Chart 1: [Title]**\n- Type: [bar/line/scatter/heatmap/etc.]\n- Purpose: [what insight this reveals]\n- Variables: [x-axis, y-axis, grouping]\n- Design notes: [color coding, scale considerations]\n\n**Chart 2: [Title]**\n- [Continue for each recommended visualization]\n\n**Dashboard Layout**: [How charts should be arranged]\n</chart_recommendations>\n\n<design_specifications>\n**Color Palette**: [Specific colors with accessibility considerations]\n**Typography**: [Font choices and hierarchy]\n**Spacing**: [Layout and white space strategy]\n**Responsive Design**: [Mobile/desktop considerations]\n</design_specifications>\n\n<clarifying_questions>\n[Specific questions about data context, audience needs, or technical requirements]\n</clarifying_questions>",
+          "prompt": "You are a data visualization expert and analyst. Think step by step to create the most effective visualizations.\n\nAnalyze this data and create visualization strategy:\n1. Identify key patterns and insights\n2. Select optimal chart types for each insight\n3. Design clear, accessible visualizations\n4. Provide implementation guidance\n\nData context:\nDataset: [describe your data or paste sample]\nAudience: [executives/analysts/general public]\nPurpose: [reporting/exploration/presentation]\nTools available: [Excel/Tableau/Python/R/D3]\n\nProvide:\n**Key Insights**: [main patterns and trends to highlight]\n**Chart Recommendations**: [specific chart types with rationale]\n**Design Specifications**: [colors, layout, formatting]\n**Implementation Code**: [working code examples if needed]\n**Accessibility**: [colorblind-friendly options]\n**Story Flow**: [logical sequence for presenting insights]\n\nEnsure visualizations are:\n- Clear and uncluttered\n- Accessible to all users\n- Focused on key insights",
           "tips": [
-            "Start by understanding what story your audience needs to hear from the data",
-            "Choose chart types based on the data relationships you want to show, not just preferences",
-            "If visualizations seem unclear, ask the AI to suggest alternative chart types or data presentations",
-            "Consider colorblind accessibility when selecting color schemes"
-          ]
-        },
-        {
-          "title": "Visualization Implementation and Optimization",
-          "description": "Create detailed visualization specifications with code examples and design refinements",
-          "tool": "ChatGPT-4",
-          "toolReason": "Excellent at generating specific code examples and detailed implementation guidance across different visualization tools and platforms",
-          "timeEstimate": "15 minutes",
-          "prompt": "You are a data visualization developer and UX designer with expertise in creating production-ready charts and dashboards using modern visualization tools. Work systematically to create implementable, polished visualizations.\n\n<instructions>\nDevelop complete implementation specifications for the visualizations:\n\n1. **Code Generation**: Provide working code examples for each chart\n2. **Styling Implementation**: Apply design specifications with CSS/styling code\n3. **Accessibility Features**: Ensure visualizations are accessible to all users\n4. **Performance Optimization**: Consider loading times and responsiveness\n5. **Interactive Elements**: Implement tooltips, filters, and user controls\n6. **Quality Assurance**: Define testing and validation approaches\n\nIf specific tools or technical requirements need clarification, ask targeted questions about the implementation environment and constraints.\n</instructions>\n\n<visualization_strategy>\n[Paste the chart recommendations from previous step]\n</visualization_strategy>\n\n<technical_requirements>\nVisualization tool: [D3.js/Plotly/Tableau/PowerBI/Python/R/etc.]\nPlatform: [web/desktop/mobile app]\nData format: [CSV/JSON/database connection]\nUpdate mechanism: [static/API/real-time]\nBrowser support: [specific requirements]\n</technical_requirements>\n\n<implementation_preferences>\nCoding style: [specific conventions]\nLibrary versions: [if applicable]\nResponsive requirements: [mobile-first/desktop-first]\nAccessibility level: [WCAG compliance level]\n</implementation_preferences>\n\nProvide complete implementation:\n\n**Chart Implementation Code**\n\n```[language]\n// Chart 1: [Title]\n// [Complete working code with comments]\n[Include data loading, chart configuration, styling, and interactivity]\n\n// Accessibility features\n[ARIA labels, keyboard navigation, screen reader support]\n\n// Responsive design\n[Mobile and desktop optimizations]\n```\n\n**Styling and Design**\n\n```css\n/* Complete CSS for chart styling */\n/* Color palette implementation */\n/* Typography and spacing */\n/* Responsive breakpoints */\n/* Accessibility enhancements */\n```\n\n**Interactive Features**\n\n```[language]\n// Tooltips and hover effects\n// Filter and selection controls\n// Zoom and pan functionality\n// Export and share options\n```\n\n**Data Processing**\n\n```[language]\n// Data cleaning and preparation\n// Aggregation and calculation logic\n// Performance optimization for large datasets\n```\n\n**Quality Assurance Checklist**\n- [ ] Charts render correctly across browsers\n- [ ] Data accuracy verified\n- [ ] Responsive design tested\n- [ ] Accessibility features working\n- [ ] Performance meets requirements\n- [ ] Interactive elements function properly\n\n**Deployment Instructions**\n[Step-by-step guide for implementing in target environment]\n\n**Maintenance Guidelines**\n[How to update data, modify charts, and troubleshoot issues]",
-          "tips": [
-            "Test visualizations with real data to ensure they handle edge cases",
-            "Implement proper error handling for missing or invalid data",
-            "Use progressive enhancement for interactive features",
-            "Validate that colors and contrasts meet accessibility standards"
+            "Choose chart types based on the relationship you want to show",
+            "Use color strategically to highlight key findings"
           ]
         }
       ]

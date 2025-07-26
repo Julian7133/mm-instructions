@@ -1,41 +1,26 @@
 {
   "id": "productivity-presentation-creation",
   "title": "AI-Powered Presentation Design & Content Creation",
-  "description": "Create compelling, professional presentations with optimized structure, visuals, and messaging",
+  "description": "Create compelling presentations with optimized structure and messaging",
   "category": "productivity",
   "difficulty": "intermediate",
-  "timeEstimate": "35 minutes",
-  "aiScore": 9,
-  "tools": ["Claude-4-Opus", "ChatGPT-4", "Gemini-2.5-Pro"],
+  "timeEstimate": "20 minutes",
+  "aiScore": 8,
+  "tools": ["Claude-4-Opus", "ChatGPT-4"],
+  "source": "Based on presentation design principles from Slide:ology and TED Talk strategies",
   "languages": {
     "en": {
       "steps": [
         {
-          "title": "Presentation Strategy and Structure Planning",
-          "description": "Develop comprehensive presentation strategy with optimal narrative flow and audience engagement",
+          "title": "Presentation Strategy and Content",
+          "description": "Develop presentation structure and create compelling content",
           "tool": "Claude-4-Opus",
-          "toolReason": "Essential for complex strategic thinking and narrative design. Superior at understanding audience psychology and creating compelling story arcs.",
+          "toolReason": "Excellent at strategic thinking and narrative design for presentations",
           "timeEstimate": "20 minutes",
-          "prompt": "You are an experienced presentation consultant and communication strategist with expertise in executive communications, storytelling, and audience engagement. Take time to think step by step through this presentation challenge.\n\n<instructions>\nDesign a comprehensive presentation strategy:\n\n1. **Audience Analysis**: Define audience needs, knowledge level, and decision-making factors\n2. **Core Message**: Develop clear, memorable key takeaways\n3. **Narrative Structure**: Create logical flow with compelling story arc\n4. **Slide Architecture**: Plan optimal number and type of slides\n5. **Engagement Strategy**: Identify interaction points and retention techniques\n6. **Call-to-Action**: Define specific desired outcomes\n\nThink step by step through the audience's perspective. If the presentation purpose or audience is unclear, ask specific clarifying questions to ensure maximum impact.\n</instructions>\n\n<presentation_brief>\nTopic: [your presentation topic]\nObjective: [what you want to achieve]\nAudience: [who will be attending]\nDuration: [time limit]\nFormat: [in-person/virtual/hybrid]\nContext: [why this presentation is happening]\n</presentation_brief>\n\n<constraints>\nTime limit: [specific duration]\nTechnical requirements: [AV setup, software, etc.]\nCorporate guidelines: [brand standards, templates]\nSensitive topics: [anything to avoid or handle carefully]\n</constraints>\n\n<thinking>\n[Your step-by-step analysis of audience needs and optimal approach]\n</thinking>\n\n<presentation_strategy>\n**Core Message**: [One clear sentence summarizing your main point]\n**Key Takeaways**: [3-5 specific things audience should remember]\n**Emotional Journey**: [How you'll move the audience from current state to desired state]\n</presentation_strategy>\n\n<slide_outline>\n**Opening** (2-3 slides):\n- Hook and attention grabber\n- Problem/opportunity statement\n- Preview of value\n\n**Body** (5-8 slides):\n- [Logical progression of main points]\n- [Supporting evidence and examples]\n- [Address potential objections]\n\n**Closing** (2-3 slides):\n- Summary of key points\n- Clear call-to-action\n- Next steps\n</slide_outline>\n\n<engagement_plan>\n[Specific techniques for audience interaction and retention]\n</engagement_plan>\n\n<clarifying_questions>\n[Questions to refine strategy and content]\n</clarifying_questions>",
+          "prompt": "You are a presentation consultant. Think step by step to create a compelling presentation.\n\nCreate a presentation strategy:\n1. Audience analysis and key message\n2. Logical slide structure\n3. Content for each slide\n4. Visual recommendations\n\nTopic: [your presentation topic]\nAudience: [who you're presenting to]\nObjective: [what you want to achieve]\nDuration: [time limit]\nFormat: [in-person/virtual]\n\nProvide:\n**Core Message**: [one clear sentence]\n**Slide Outline**: \n- Opening (hook + preview)\n- 3-5 main points with evidence\n- Closing (summary + call-to-action)\n\n**Slide Content**: [specific text and visual suggestions for each slide]\n**Speaker Notes**: [key talking points and timing]",
           "tips": [
-            "Start with your audience's current mindset and lead them to where you want them to be",
-            "Plan for fewer slides than you think you need - better to go deep than rushed",
-            "If the AI suggests a structure that doesn't feel right, provide more context about your specific goals",
-            "Consider what questions or objections your audience might have and address them proactively"
-          ]
-        },
-        {
-          "title": "Content Development and Visual Design",
-          "description": "Create compelling slide content with effective visual hierarchy and design principles",
-          "tool": "ChatGPT-4",
-          "toolReason": "Excellent at content creation, formatting, and providing specific design recommendations with practical implementation guidance",
-          "timeEstimate": "15 minutes",
-          "prompt": "You are a presentation designer and content strategist with expertise in visual communication, corporate design, and persuasive messaging. Work systematically through each slide to create maximum impact.\n\n<instructions>\nDevelop detailed slide content and design specifications:\n\n1. **Content Creation**: Write clear, compelling text for each slide\n2. **Visual Hierarchy**: Design layout with optimal information flow\n3. **Design Elements**: Specify charts, images, icons, and formatting\n4. **Consistency**: Ensure cohesive visual style throughout\n5. **Accessibility**: Consider readability and inclusive design\n6. **Speaker Notes**: Add detailed talking points and timing\n\nIf any content areas need more specific information or examples, ask targeted questions to ensure authenticity and relevance.\n</instructions>\n\n<slide_outline>\n[Paste the slide outline from previous step]\n</slide_outline>\n\n<brand_guidelines>\nColor scheme: [primary/secondary colors]\nFont preferences: [typefaces or style guidelines]\nLogo usage: [placement and sizing requirements]\nImage style: [photography vs. illustration, style preferences]\n</brand_guidelines>\n\n<content_details>\nKey data/statistics: [specific numbers or research to include]\nCase studies/examples: [relevant stories or proof points]\nQuotes/testimonials: [supporting voices or authorities]\n</content_details>\n\nFor each slide, provide:\n\n**Slide [Number]: [Title]**\n- **Headline**: [Main message in 6-10 words]\n- **Content**: [Bullet points or key text]\n- **Visual elements**: [Specific chart types, images, icons]\n- **Design notes**: [Layout, emphasis, color usage]\n- **Speaker notes**: [What to say, timing, transitions]\n- **Interaction**: [Any audience engagement moments]\n\n**DESIGN PRINCIPLES TO FOLLOW**:\n- Maximum 6 words per bullet point\n- Use high contrast for readability\n- Implement 6x6 rule (max 6 bullets, 6 words each)\n- Include whitespace for visual breathing room\n- Use consistent animation/transition style\n\n**ACCESSIBILITY CHECKLIST**:\n- Text size minimum 24pt for body text\n- Color contrast ratio 4.5:1 or higher\n- Alt text descriptions for images\n- Clear visual hierarchy",
-          "tips": [
-            "Less text is always better - aim for slide headlines that tell the story alone",
-            "Use high-quality, consistent imagery that supports your message",
-            "Test your slides on different screen sizes if presenting virtually",
-            "Practice with your speaker notes to ensure natural delivery and proper timing"
+            "Start with your audience's needs, not your content",
+            "Use the 6x6 rule: max 6 bullets, 6 words each"
           ]
         }
       ]

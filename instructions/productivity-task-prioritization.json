@@ -1,41 +1,26 @@
 {
   "id": "productivity-task-prioritization",
   "title": "AI-Assisted Task Prioritization & Time Management",
-  "description": "Systematically organize and prioritize tasks using proven frameworks with AI optimization",
+  "description": "Systematically organize and prioritize tasks using proven frameworks",
   "category": "productivity",
   "difficulty": "intermediate",
-  "timeEstimate": "30 minutes",
-  "aiScore": 9,
-  "tools": ["Claude-4-Opus", "ChatGPT-4", "Claude-4-Sonnet"],
+  "timeEstimate": "15 minutes",
+  "aiScore": 8,
+  "tools": ["Claude-4-Opus", "ChatGPT-4"],
+  "source": "Based on Eisenhower Matrix and GTD methodology from Reddit r/productivity",
   "languages": {
     "en": {
       "steps": [
         {
-          "title": "Comprehensive Task Analysis and Categorization",
-          "description": "Analyze all tasks using multiple prioritization frameworks to identify optimal focus areas",
+          "title": "Task Analysis and Prioritization",
+          "description": "Categorize tasks using multiple prioritization frameworks",
           "tool": "Claude-4-Opus",
-          "toolReason": "Superior analytical capabilities essential for complex decision-making and strategic thinking. Required for multi-framework analysis and pattern recognition.",
-          "timeEstimate": "20 minutes",
-          "prompt": "You are an experienced productivity consultant and executive coach with deep expertise in time management frameworks including Eisenhower Matrix, Getting Things Done (GTD), OKRs, and RICE scoring. Take time to think step by step through this prioritization challenge.\n\n<instructions>\nAnalyze the provided task list using multiple prioritization frameworks:\n\n1. **Eisenhower Matrix**: Categorize by Urgent/Important quadrants\n2. **Impact vs Effort**: Score each task on a 1-10 scale for both\n3. **Time Boxing**: Estimate realistic time requirements\n4. **Dependencies**: Identify task relationships and blockers\n5. **Strategic Alignment**: Assess alignment with goals\n6. **Energy Requirements**: Consider cognitive load and optimal timing\n\nThink step by step through each task. If any tasks are vague or lack context, ask specific clarifying questions to enable proper prioritization.\n</instructions>\n\n<task_list>\n[Paste your complete task list here - include deadlines, context, and any constraints]\n</task_list>\n\n<context>\nCurrent goals/priorities: [your main objectives]\nAvailable time per day: [hours for focused work]\nEnergy patterns: [morning person/night owl/etc.]\nUpcoming deadlines: [critical dates]\nTeam dependencies: [tasks waiting on others]\n</context>\n\n<thinking>\n[Your step-by-step analysis using the frameworks above]\n</thinking>\n\n<eisenhower_matrix>\n**Quadrant 1 (Urgent + Important)**: [Critical tasks requiring immediate attention]\n**Quadrant 2 (Important, Not Urgent)**: [Strategic tasks for long-term success]\n**Quadrant 3 (Urgent, Not Important)**: [Tasks to delegate or minimize]\n**Quadrant 4 (Neither)**: [Tasks to eliminate]\n</eisenhower_matrix>\n\n<impact_effort_analysis>\n[Each task scored with reasoning: High Impact/Low Effort = Quick wins]\n</impact_effort_analysis>\n\n<recommended_sequence>\n[Optimal task order with timing and rationale]\n</recommended_sequence>\n\n<clarifying_questions>\n[Specific questions to improve prioritization accuracy]\n</clarifying_questions>",
+          "toolReason": "Superior analytical capabilities for complex prioritization decisions",
+          "timeEstimate": "15 minutes",
+          "prompt": "You are a productivity consultant. Think step by step through these tasks to prioritize them effectively.\n\nAnalyze my tasks using the Eisenhower Matrix:\n1. Urgent + Important (do first)\n2. Important, not urgent (schedule)\n3. Urgent, not important (delegate)\n4. Neither urgent nor important (eliminate)\n\nFor each task, also consider:\n- Impact level (1-10)\n- Effort required (1-10)\n- Dependencies on others\n- Deadlines\n\nTasks: [list your tasks with any deadlines or context]\nAvailable time: [hours per day for focused work]\nMain goals: [your current priorities]\n\nFormat as:\n**Do First**: [urgent + important tasks]\n**Schedule**: [important but not urgent]\n**Delegate/Quick wins**: [urgent but not important]\n**Eliminate**: [low value tasks]\n\n**Recommended daily schedule**: [time-blocked schedule]",
           "tips": [
-            "Be honest about your actual available time - don't overestimate capacity",
-            "Include context about why each task matters to your bigger goals",
-            "If the AI's prioritization feels wrong, provide more detail about constraints or goals",
-            "Consider your energy levels throughout the day when scheduling demanding tasks"
-          ]
-        },
-        {
-          "title": "Schedule Optimization and Implementation Strategy",
-          "description": "Create a realistic, executable schedule with built-in flexibility and review systems",
-          "tool": "ChatGPT-4",
-          "toolReason": "Excellent at practical scheduling and creating actionable implementation plans with detailed logistics",
-          "timeEstimate": "10 minutes",
-          "prompt": "You are a time management expert and personal productivity coach specializing in sustainable scheduling systems. Work through this systematically to create a realistic, actionable plan.\n\n<instructions>\nUsing the prioritized task analysis, create an implementation strategy:\n\n1. **Daily/Weekly Schedule**: Map high-priority tasks to optimal time slots\n2. **Buffer Time**: Build in realistic buffers for unexpected issues\n3. **Energy Matching**: Align task difficulty with energy levels\n4. **Review System**: Set up regular check-ins and adjustments\n5. **Contingency Planning**: Prepare for common disruptions\n6. **Progress Tracking**: Define success metrics and milestones\n\nIf the proposed schedule seems unrealistic given time constraints, ask clarifying questions about what can be adjusted or delegated.\n</instructions>\n\n<prioritized_tasks>\n[Paste the recommended sequence from previous step]\n</prioritized_tasks>\n\n<schedule_constraints>\nWork hours: [your typical schedule]\nMeeting blocks: [regular commitments]\nDeep work preference: [best hours for focused work]\nNon-negotiables: [fixed appointments/commitments]\n</schedule_constraints>\n\n**DAILY SCHEDULE TEMPLATE**\n```\nMonday:\n9:00-10:30: [High-focus task block]\n10:30-10:45: Buffer\n10:45-12:00: [Secondary priority]\n[Continue for each day]\n```\n\n**WEEKLY REVIEW PROCESS**\n- When: [specific day/time]\n- Duration: [realistic time]\n- Questions to ask: [specific review criteria]\n\n**CONTINGENCY PLANS**\n- If behind schedule: [specific strategies]\n- If new urgent tasks emerge: [decision framework]\n- If energy is low: [alternative approaches]\n\n**SUCCESS METRICS**\n[How you'll measure progress and adjust]\n\n**RECOMMENDED TOOLS**\n[Specific apps/systems that fit your workflow]",
-          "tips": [
-            "Start with shorter time blocks until you understand your actual productivity patterns",
-            "Schedule your most important task when your energy is highest",
-            "Plan for only 70-80% of your available time to account for interruptions",
-            "Set up weekly reviews to adjust the system based on what actually works"
+            "Be realistic about your actual available time",
+            "Focus on high-impact, low-effort tasks for quick wins"
           ]
         }
       ]

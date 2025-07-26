@@ -1,41 +1,26 @@
 {
   "id": "development-api-documentation",
   "title": "Comprehensive API Documentation Generation",
-  "description": "Create professional, developer-friendly API documentation with examples, use cases, and integration guides",
+  "description": "Create developer-friendly API documentation with examples and integration guides",
   "category": "development",
   "difficulty": "intermediate",
-  "timeEstimate": "40 minutes",
-  "aiScore": 9,
-  "tools": ["Claude-4-Opus", "ChatGPT-4", "Claude-4-Sonnet"],
+  "timeEstimate": "25 minutes",
+  "aiScore": 8,
+  "tools": ["Claude-4-Opus", "ChatGPT-4"],
+  "source": "Based on API documentation best practices from Stripe, Twilio, and OpenAPI specification guides",
   "languages": {
     "en": {
       "steps": [
         {
-          "title": "API Analysis and Documentation Architecture",
-          "description": "Analyze API structure and design comprehensive documentation strategy for optimal developer experience",
+          "title": "API Documentation Creation",
+          "description": "Generate complete API documentation with examples and use cases",
           "tool": "Claude-4-Opus",
-          "toolReason": "Essential for complex API analysis and strategic documentation planning. Superior at understanding developer needs and creating logical information architecture.",
+          "toolReason": "Excellent at understanding complex APIs and creating clear documentation",
           "timeEstimate": "25 minutes",
-          "prompt": "You are an experienced API architect and technical writer with expertise in developer experience design, API usability, and comprehensive documentation strategies. Think step by step through this API to create the most effective documentation approach.\n\n<instructions>\nAnalyze the API and design a comprehensive documentation strategy:\n\n1. **API Structure Analysis**: Understand endpoints, data models, and relationships\n2. **Developer Journey Mapping**: Plan documentation flow from quickstart to advanced usage\n3. **Use Case Identification**: Define primary and secondary API usage scenarios\n4. **Content Architecture**: Design logical organization and navigation structure\n5. **Example Strategy**: Plan realistic, practical code examples for each endpoint\n6. **Integration Patterns**: Identify common implementation approaches and best practices\n\nThink through the developer's perspective - from first discovery to production implementation. If API functionality or intended use cases aren't clear, ask specific clarifying questions about the API's purpose and target developers.\n</instructions>\n\n<api_details>\n[Paste your API specification, OpenAPI/Swagger file, or describe your API endpoints]\n</api_details>\n\n<context>\nAPI type: [REST/GraphQL/gRPC/WebSocket]\nTarget developers: [internal team/external partners/public]\nAuthentication: [API keys/OAuth/JWT/etc.]\nRate limiting: [requests per minute/hour limits]\nSDKs available: [languages with official SDKs]\nVersioning approach: [URL/header/parameter versioning]\n</context>\n\n<thinking>\n[Your step-by-step analysis of the API structure and documentation needs]\n</thinking>\n\n<documentation_strategy>\n**Primary Use Cases**: [Main ways developers will use this API]\n**Developer Personas**: [Different types of developers and their needs]\n**Success Metrics**: [How to measure documentation effectiveness]\n**Content Priorities**: [Most critical information to communicate clearly]\n</documentation_strategy>\n\n<content_architecture>\n**Getting Started Section**:\n- Quick start guide (5-minute setup)\n- Authentication setup\n- First API call example\n- Common setup issues\n\n**API Reference Section**:\n- Endpoint organization by feature/resource\n- Request/response schemas\n- Error codes and handling\n- Rate limiting details\n\n**Integration Guides Section**:\n- Common implementation patterns\n- Best practices and optimization\n- SDK usage examples\n- Webhook setup (if applicable)\n\n**Advanced Topics Section**:\n- Complex use cases\n- Performance optimization\n- Security considerations\n- Migration guides\n</content_architecture>\n\n<example_strategy>\n**Code Example Standards**:\n- Languages to include: [priority languages]\n- Example complexity levels: [basic/intermediate/advanced]\n- Real vs. dummy data approach: [realistic examples vs. placeholder data]\n- Error handling examples: [how to show error scenarios]\n</example_strategy>\n\n<developer_experience_priorities>\n[Key factors that will make this documentation exceptionally useful]\n</developer_experience_priorities>\n\n<clarifying_questions>\n[Specific questions about API functionality, constraints, or developer needs]\n</clarifying_questions>",
+          "prompt": "You are an experienced API developer and technical writer. Think step by step to create excellent API documentation.\n\nCreate comprehensive API docs covering:\n1. Getting started guide with authentication\n2. Endpoint documentation with examples\n3. Error handling and status codes\n4. Integration patterns and best practices\n\nAPI details: [describe your API or paste OpenAPI spec]\nTarget developers: [internal/external/partner]\nAuthentication: [API keys/OAuth/JWT]\nKey use cases: [main scenarios]\n\nProvide:\n**Quick Start**: [5-minute setup with working example]\n**Endpoint Reference**: [method, URL, parameters, responses]\n**Code Examples**: [in 2-3 popular languages]\n**Error Handling**: [status codes and error format]\n**Integration Guide**: [common patterns and best practices]\n**Testing**: [how to test API calls]\n\nEnsure examples are:\n- Working and copy-pasteable\n- Realistic data, not placeholders\n- Include error scenarios",
           "tips": [
-            "Start with the most common use case and build complexity gradually",
-            "Include working code examples that developers can copy and modify",
-            "If the API structure seems complex, ask the AI to suggest a simplified presentation approach",
-            "Consider what questions developers will have at each stage of implementation"
-          ]
-        },
-        {
-          "title": "Comprehensive Documentation Writing and Code Examples",
-          "description": "Create detailed API documentation with practical examples, error handling, and integration guidance",
-          "tool": "Claude-4-Sonnet",
-          "toolReason": "Excellent at technical writing, code generation, and creating practical examples with proper formatting and structure",
-          "timeEstimate": "15 minutes",
-          "prompt": "You are a senior technical writer and developer advocate with expertise in API documentation, code examples, and developer onboarding. Create comprehensive, practical documentation that developers will actually want to use.\n\n<instructions>\nWrite complete API documentation based on the strategy:\n\n1. **Clear Explanations**: Write concise, jargon-free descriptions of each endpoint\n2. **Practical Examples**: Provide working code samples in multiple languages\n3. **Error Documentation**: Document all error codes with explanations and solutions\n4. **Integration Guidance**: Show real-world implementation patterns\n5. **Testing Support**: Include examples for testing and debugging\n6. **Maintenance Info**: Document versioning, deprecation, and update policies\n\nIf specific technical details or implementation approaches need clarification, ask targeted questions to ensure accuracy and completeness.\n</instructions>\n\n<documentation_architecture>\n[Paste the content architecture from previous step]\n</documentation_architecture>\n\n<technical_specifications>\nBase URL: [API base URL]\nAuthentication details: [specific auth implementation]\nSupported formats: [JSON/XML/etc.]\nHTTP methods used: [GET/POST/PUT/DELETE specifics]\nVersioning: [how versions are specified]\n</technical_specifications>\n\n<style_preferences>\nTone: [professional/friendly/technical]\nCode style: [formatting preferences]\nExample complexity: [beginner-focused/comprehensive]\nMarkdown features: [tables/collapsible sections/etc.]\n</style_preferences>\n\nCreate the complete documentation:\n\n# [API Name] Documentation\n\n## Quick Start Guide\n```[language]\n// 5-minute setup example\n[Working code that gets developers started immediately]\n```\n\n## Authentication\n[Clear explanation with examples]\n\n## Endpoints\n\n### [Endpoint Group Name]\n\n#### [HTTP Method] [Endpoint Path]\n[Clear description of what this endpoint does]\n\n**Parameters:**\n| Parameter | Type | Required | Description |\n|-----------|------|----------|-------------|\n| param1 | string | Yes | Clear explanation |\n\n**Request Example:**\n```[language]\n[Complete, working request example]\n```\n\n**Response Example:**\n```json\n[Realistic response data]\n```\n\n**Error Responses:**\n| Status Code | Description | Solution |\n|-------------|-------------|----------|\n| 400 | Bad Request | Check parameter format |\n\n## Integration Examples\n\n### [Common Use Case Name]\n```[language]\n// Complete integration example showing:\n// - Setup and configuration\n// - Error handling\n// - Best practices\n[Full working example]\n```\n\n## SDKs and Libraries\n[Information about official and community SDKs]\n\n## Rate Limiting\n[Clear explanation of limits and how to handle them]\n\n## Webhooks (if applicable)\n[Setup and handling examples]\n\n## Testing and Debugging\n[Tools and techniques for API testing]\n\n## Changelog and Versioning\n[How updates are communicated and managed]",
-          "tips": [
-            "Test all code examples to ensure they actually work",
-            "Include realistic data in examples rather than placeholder text",
-            "Show error handling in examples, not just happy path scenarios",
-            "Provide multiple language examples for critical endpoints"
+            "Start with the most common use case",
+            "Include working code examples that developers can copy"
           ]
         }
       ]
