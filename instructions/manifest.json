@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-01-25T00:00:00Z",
+  "instructions": {
+    "productivity-task-management": "productivity-task-management.json",
+    "communication-email-writing": "communication-email-writing.json",
+    "development-code-review": "development-code-review.json"
+  }
+}

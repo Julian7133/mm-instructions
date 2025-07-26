@@ -1,0 +1,42 @@
+{
+  "id": "communication-email-writing",
+  "title": "Professional Email Writing",
+  "description": "AI-assisted techniques for crafting clear, professional emails",
+  "category": "communication",
+  "difficulty": "beginner",
+  "timeEstimate": "15 minutes",
+  "aiScore": 8,
+  "tools": ["ChatGPT", "Claude", "Grammarly"],
+  "languages": {
+    "en": {
+      "steps": [
+        {
+          "title": "Email Structure Planning",
+          "description": "Organize your email content with clear purpose and flow",
+          "tool": "Claude",
+          "toolReason": "Strong at structuring professional communications",
+          "timeEstimate": "5 minutes",
+          "prompt": "Help me structure an email for: [purpose]. Include subject line, greeting, main points, and closing. Target audience: [audience description].",
+          "tips": [
+            "Start with the most important information",
+            "Use bullet points for multiple items",
+            "Keep paragraphs short and focused"
+          ]
+        },
+        {
+          "title": "Tone and Language Optimization",
+          "description": "Refine tone and language for professional impact",
+          "tool": "ChatGPT",
+          "toolReason": "Excellent at tone adjustment and language refinement",
+          "timeEstimate": "10 minutes",
+          "prompt": "Review this email draft and suggest improvements for tone, clarity, and professionalism: [email draft]. The relationship with recipient is: [professional/formal/casual].",
+          "tips": [
+            "Match formality to relationship level",
+            "Use active voice when possible",
+            "Proofread for grammar and spelling"
+          ]
+        }
+      ]
+    }
+  }
+}

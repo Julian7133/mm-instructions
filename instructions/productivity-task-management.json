@@ -1,0 +1,29 @@
+{
+  "id": "productivity-task-management",
+  "title": "Effective Task Management",
+  "description": "AI-powered strategies for organizing and prioritizing tasks",
+  "category": "productivity",
+  "difficulty": "intermediate",
+  "timeEstimate": "20 minutes",
+  "aiScore": 9,
+  "tools": ["ChatGPT", "Claude", "Notion"],
+  "languages": {
+    "en": {
+      "steps": [
+        {
+          "title": "Task Analysis",
+          "description": "Break down complex tasks into manageable components",
+          "tool": "ChatGPT",
+          "toolReason": "Excellent at structured analysis and breakdown",
+          "timeEstimate": "10 minutes",
+          "prompt": "Help me break down this complex task: [task description]. Provide a structured breakdown with priorities and dependencies.",
+          "tips": [
+            "Focus on outcomes, not just activities",
+            "Identify critical path dependencies",
+            "Set measurable success criteria"
+          ]
+        }
+      ]
+    }
+  }
+}
