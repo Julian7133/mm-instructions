@@ -17,7 +17,7 @@
           "tool": "Claude-4-Sonnet",
           "toolReason": "Excellent at organizing information and creating clear document structure",
           "timeEstimate": "10 minutes",
-          "prompt": "You are an experienced technical writer. Think step by step to organize this content.\n\nRestructure this content with:\n1. Clear document hierarchy (H1, H2, H3)\n2. Professional formatting (lists, tables, emphasis)\n3. Logical flow and transitions\n4. Consistent tone and style\n\nContent: [paste your unstructured content]\nDocument type: [report/proposal/guide]\nAudience: [internal/external/technical]\nTone: [formal/professional/friendly]\n\nFormat using markdown with:\n- **Bold** for key points\n- Lists for multiple items\n- Tables for data\n- > Callouts for important notes",
+          "prompt": "You are an experienced technical writer. Think step by step to organize this content.\n\nRestructure this content with:\n1. Clear document hierarchy (H1, H2, H3)\n2. Professional formatting (lists, tables, emphasis)\n3. Logical flow and transitions\n4. Consistent tone and style\n\nContent: [paste your unstructured content here]\n\nIf needed, ask clarifying questions about document type, target audience, or desired tone.\n\nFormat using markdown with:\n- **Bold** for key points\n- Lists for multiple items\n- Tables for data\n- > Callouts for important notes",
           "tips": [
             "Start with a clear document outline before formatting",
             "Use consistent heading styles throughout"
