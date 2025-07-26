@@ -1,0 +1,44 @@
+{
+  "id": "productivity-customer-service-templates",
+  "title": "AI-Generated Customer Service Response Templates",
+  "description": "Create personalized, professional customer service responses for common scenarios with brand consistency",
+  "category": "productivity",
+  "difficulty": "beginner",
+  "timeEstimate": "20 minutes",
+  "aiScore": 8,
+  "tools": ["ChatGPT-4", "Claude-4-Sonnet", "Gemini-2.5-Pro"],
+  "languages": {
+    "en": {
+      "steps": [
+        {
+          "title": "Response Template Development and Tone Calibration",
+          "description": "Create comprehensive response templates for common customer service scenarios with appropriate tone and messaging",
+          "tool": "ChatGPT-4",
+          "toolReason": "Excellent at understanding tone, language patterns, and creating varied response templates that maintain consistency while feeling personalized",
+          "timeEstimate": "15 minutes",
+          "prompt": "You are an experienced customer service manager and communication specialist with expertise in customer psychology, brand voice, and conflict resolution. Think step by step through each customer service scenario to create the most effective responses.\n\n<instructions>\nDevelop comprehensive response templates for common customer service situations:\n\n1. **Scenario Analysis**: Understand the customer's emotional state and needs\n2. **Response Structure**: Create templates with clear opening, body, and closing\n3. **Tone Calibration**: Match response tone to situation severity and brand voice\n4. **Personalization Points**: Identify where to customize each template\n5. **Escalation Triggers**: Define when templates aren't sufficient\n6. **Follow-up Framework**: Plan appropriate next steps for each scenario\n\nThink through the customer's perspective in each situation. If brand voice or specific company policies aren't clear, ask clarifying questions to ensure appropriate messaging.\n</instructions>\n\n<service_scenarios>\n[List your common customer service situations, e.g.:]:\n- Product complaints/defects\n- Billing inquiries/disputes\n- Account access issues\n- Shipping/delivery problems\n- Return/refund requests\n- Technical support needs\n- General inquiries\n</service_scenarios>\n\n<brand_context>\nCompany tone: [professional/friendly/casual/technical]\nIndustry: [your business sector]\nCustomer base: [B2B/B2C, demographics]\nBrand values: [key principles that should come through]\nResponse time expectations: [same day/24hrs/etc.]\n</brand_context>\n\n<company_policies>\nReturn policy: [brief summary]\nRefund process: [key points]\nEscalation process: [when to involve supervisors]\nSpecial accommodations: [what you can/cannot do]\n</company_policies>\n\nFor each scenario, provide:\n\n**[Scenario Name] Template**\n```\nSubject: [Email subject template]\n\nDear [Customer Name],\n\n[Opening - acknowledgment and empathy]\n\n[Body - explanation, solution, or next steps]\n\n[Closing - reassurance and contact information]\n\nBest regards,\n[Agent Name]\n[Company Name]\n[Contact Information]\n```\n\n**Personalization Notes**: [What to customize for each specific case]\n**Escalation Triggers**: [When this template isn't appropriate]\n**Follow-up Required**: [Any necessary next steps]\n**Tone Guide**: [Specific language choices and emotional approach]",
+          "tips": [
+            "Always acknowledge the customer's concern before providing solutions",
+            "Use the customer's name and reference specific details when possible",
+            "If a template feels too generic, ask the AI for more specific alternatives",
+            "Test templates with team members to ensure they sound natural and helpful"
+          ]
+        },
+        {
+          "title": "Response Personalization and Quality Assurance",
+          "description": "Customize templates for specific customer situations and establish quality control processes",
+          "tool": "Claude-4-Sonnet",
+          "toolReason": "Strong at detailed editing, quality analysis, and ensuring consistency across multiple templates",
+          "timeEstimate": "5 minutes",
+          "prompt": "You are a customer service quality assurance specialist with expertise in communication effectiveness and customer satisfaction optimization. Work systematically to ensure the highest quality responses.\n\n<instructions>\nReview and optimize the customer service templates:\n\n1. **Quality Check**: Ensure clarity, professionalism, and helpfulness\n2. **Consistency Review**: Verify consistent tone and messaging across templates\n3. **Personalization Guide**: Create specific instructions for customizing each template\n4. **Error Prevention**: Identify common mistakes and how to avoid them\n5. **Metrics Integration**: Suggest how to measure template effectiveness\n6. **Training Framework**: Develop guidelines for team implementation\n\nIf any templates seem unclear or potentially problematic, suggest specific improvements with reasoning.\n</instructions>\n\n<template_set>\n[Paste the templates from the previous step]\n</template_set>\n\n<quality_standards>\nResponse time target: [your goal]\nCustomer satisfaction target: [percentage or rating]\nBrand compliance requirements: [must-include elements]\nLegal considerations: [any regulatory requirements]\n</quality_standards>\n\n**QUALITY CHECKLIST**\n- [ ] Acknowledges customer concern within first sentence\n- [ ] Uses clear, jargon-free language\n- [ ] Provides specific next steps or timeline\n- [ ] Includes appropriate contact information\n- [ ] Maintains consistent brand voice\n- [ ] Addresses potential follow-up questions\n\n**PERSONALIZATION GUIDE**\n[Specific instructions for customizing each template type]\n\n**COMMON ERRORS TO AVOID**\n[Potential mistakes and how to prevent them]\n\n**ESCALATION DECISION TREE**\n[Clear criteria for when to use templates vs. escalate to supervisor]\n\n**EFFECTIVENESS TRACKING**\n- Metrics to measure: [response time, satisfaction scores, resolution rate]\n- Review schedule: [how often to update templates]\n- Feedback integration: [how to incorporate customer feedback]\n\n**TEAM TRAINING RECOMMENDATIONS**\n[Specific guidance for rolling out these templates to your team]",
+          "tips": [
+            "Create a quick reference guide with the most commonly used templates",
+            "Set up a system to track which templates work best for different situations",
+            "Regularly review customer feedback to identify areas for template improvement",
+            "Train team members on when NOT to use templates and how to write custom responses"
+          ]
+        }
+      ]
+    }
+  }
+}

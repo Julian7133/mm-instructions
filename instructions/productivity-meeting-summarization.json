@@ -1,0 +1,44 @@
+{
+  "id": "productivity-meeting-summarization",
+  "title": "AI-Powered Meeting Summarization & Action Items",
+  "description": "Transform meeting recordings and notes into actionable summaries with clear next steps",
+  "category": "productivity",
+  "difficulty": "intermediate",
+  "timeEstimate": "20 minutes",
+  "aiScore": 9,
+  "tools": ["Claude-4-Opus", "ChatGPT-4", "Gemini-2.5-Pro"],
+  "languages": {
+    "en": {
+      "steps": [
+        {
+          "title": "Initial Meeting Analysis and Context Setting",
+          "description": "Analyze the raw meeting content and establish context for comprehensive summarization",
+          "tool": "Claude-4-Opus",
+          "toolReason": "Superior at complex analysis and pattern recognition across long documents. Essential for extracting meaningful insights from unstructured meeting data.",
+          "timeEstimate": "10 minutes",
+          "prompt": "You are an experienced executive assistant with expertise in meeting management and organizational efficiency. Take time to think step by step through this meeting content.\n\n<instructions>\nAnalyze this meeting content and extract:\n1. Meeting purpose and objectives\n2. Key participants and their roles\n3. Main discussion topics\n4. Decisions made\n5. Action items with clear ownership\n6. Follow-up meetings or deadlines\n\nThink step by step through the content. If any information is unclear or missing, note specific clarifying questions that should be asked.\n</instructions>\n\n<meeting_content>\n[Paste meeting transcript, recording, or notes here]\n</meeting_content>\n\n<context>\nMeeting type: [team standup/project review/strategic planning/etc.]\nTeam/Department: [specify]\nDate: [meeting date]\n</context>\n\nStructure your analysis using these XML tags:\n<thinking>\n[Your step-by-step analysis process]\n</thinking>\n\n<summary>\n[Concise meeting summary]\n</summary>\n\n<action_items>\n[Clear, actionable items with owners and deadlines]\n</action_items>\n\n<clarifying_questions>\n[Any questions needed for complete understanding]\n</clarifying_questions>",
+          "tips": [
+            "Provide the full meeting context - type, participants, and objectives",
+            "If the AI seems confused, clarify the meeting format or provide more context",
+            "Use specific participant names when available for better action item assignment",
+            "Ask follow-up questions if action items lack clear ownership or deadlines"
+          ]
+        },
+        {
+          "title": "Action Item Prioritization and Distribution",
+          "description": "Transform extracted action items into a prioritized, distributable format",
+          "tool": "ChatGPT-4",
+          "toolReason": "Excellent at formatting and structuring information for different audiences and communication styles",
+          "timeEstimate": "10 minutes",
+          "prompt": "You are a project manager with extensive experience in task management and team coordination. Think through this step by step to create the most effective action plan.\n\n<instructions>\nTake the action items from the meeting summary and:\n1. Prioritize by urgency and importance (High/Medium/Low)\n2. Add realistic time estimates for each task\n3. Identify any dependencies between tasks\n4. Create individualized task lists for each team member\n5. Suggest follow-up check-in points\n\nIf you notice missing information (unclear deadlines, vague tasks, missing owners), ask specific clarifying questions.\n</instructions>\n\n<action_items>\n[Paste the action items from previous step]\n</action_items>\n\n<team_context>\nTeam size: [number]\nProject timeline: [timeline]\nUpcoming deadlines: [any relevant deadlines]\n</team_context>\n\nFormat your response as:\n<prioritized_tasks>\n[Tasks organized by priority with clear details]\n</prioritized_tasks>\n\n<individual_assignments>\n[Personalized task lists for each team member]\n</individual_assignments>\n\n<follow_up_plan>\n[Recommended check-in schedule and methods]\n</follow_up_plan>\n\n<dependencies>\n[Task dependencies and potential blockers]\n</dependencies>",
+          "tips": [
+            "Be specific about deadlines - use actual dates, not relative terms",
+            "Break down large tasks into smaller, manageable sub-tasks",
+            "Consider team members' current workload when estimating capacity",
+            "Set up automated reminders for critical deadlines"
+          ]
+        }
+      ]
+    }
+  }
+}
