@@ -1,9 +1,26 @@
 {
-  "version": "1.0.0",
-  "lastUpdated": "2025-01-25T00:00:00Z",
+  "version": "2.0.0",
+  "lastUpdated": "2025-07-26T00:00:00Z",
   "instructions": {
-    "productivity-task-management": "productivity-task-management.json",
     "communication-email-writing": "communication-email-writing.json",
-    "development-code-review": "development-code-review.json"
+    "productivity-task-management": "productivity-task-management.json",
+    "productivity-meeting-summarization": "productivity-meeting-summarization.json",
+    "productivity-document-formatting": "productivity-document-formatting.json",
+    "productivity-task-prioritization": "productivity-task-prioritization.json",
+    "productivity-presentation-creation": "productivity-presentation-creation.json",
+    "productivity-research-gathering": "productivity-research-gathering.json",
+    "productivity-customer-service-templates": "productivity-customer-service-templates.json",
+    "productivity-email-automation": "productivity-email-automation.json",
+    "development-code-review": "development-code-review.json",
+    "development-unit-testing": "development-unit-testing.json",
+    "development-api-documentation": "development-api-documentation.json",
+    "development-debugging-strategies": "development-debugging-strategies.json",
+    "development-technical-documentation": "development-technical-documentation.json",
+    "analysis-data-visualization": "analysis-data-visualization.json",
+    "analysis-business-intelligence": "analysis-business-intelligence.json",
+    "analysis-market-research": "analysis-market-research.json",
+    "management-performance-reviews": "management-performance-reviews.json",
+    "management-team-feedback-coaching": "management-team-feedback-coaching.json",
+    "management-strategic-planning": "management-strategic-planning.json"
   }
 }

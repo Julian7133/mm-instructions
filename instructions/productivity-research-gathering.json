@@ -1,0 +1,44 @@
+{
+  "id": "productivity-research-gathering",
+  "title": "AI-Enhanced Research & Information Synthesis",
+  "description": "Systematically gather, analyze, and synthesize information from multiple sources for comprehensive research projects",
+  "category": "productivity",
+  "difficulty": "advanced",
+  "timeEstimate": "45 minutes",
+  "aiScore": 9,
+  "tools": ["Claude-4-Opus", "ChatGPT-4", "Perplexity"],
+  "languages": {
+    "en": {
+      "steps": [
+        {
+          "title": "Research Strategy Development and Source Planning",
+          "description": "Create comprehensive research framework with systematic approach to information gathering",
+          "tool": "Claude-4-Opus",
+          "toolReason": "Critical for complex research design and strategic thinking. Essential when dealing with multiple information sources and synthesis requirements.",
+          "timeEstimate": "20 minutes",
+          "prompt": "You are an experienced research strategist and information scientist with expertise in academic research, market analysis, and evidence synthesis. Think step by step through this research challenge to develop the most effective approach.\n\n<instructions>\nDevelop a comprehensive research strategy:\n\n1. **Research Scope Definition**: Clarify objectives, key questions, and success criteria\n2. **Source Identification**: Map relevant databases, publications, experts, and primary sources\n3. **Search Strategy**: Design keyword combinations, Boolean operators, and search filters\n4. **Quality Framework**: Establish criteria for source credibility and relevance\n5. **Information Architecture**: Plan how to organize and categorize findings\n6. **Synthesis Approach**: Design method for connecting insights across sources\n\nTake time to think through potential research gaps or biases. If the research objective is unclear or too broad, ask specific clarifying questions to focus the approach.\n</instructions>\n\n<research_brief>\nTopic: [your research subject]\nPurpose: [why you need this information]\nAudience: [who will use the research]\nDepth required: [overview/detailed analysis/comprehensive report]\nTimeframe: [deadline constraints]\nBudget/access: [available resources, database access, etc.]\n</research_brief>\n\n<existing_knowledge>\nWhat I already know: [current understanding]\nKnowledge gaps: [specific unknowns]\nHypotheses: [initial assumptions to test]\nBias concerns: [potential blind spots]\n</existing_knowledge>\n\n<thinking>\n[Your step-by-step analysis of the research challenge and optimal approach]\n</thinking>\n\n<research_questions>\n**Primary Question**: [Main research objective]\n**Secondary Questions**: [Supporting inquiries that build to the main answer]\n**Validation Questions**: [How to verify information accuracy]\n</research_questions>\n\n<source_strategy>\n**Primary Sources**: [Original data, interviews, surveys, documents]\n**Secondary Sources**: [Analysis, reports, academic papers]\n**Tertiary Sources**: [Summaries, encyclopedias, overviews]\n**Expert Sources**: [Key people to contact or follow]\n**Database Strategy**: [Specific databases and search terms]\n</source_strategy>\n\n<organization_framework>\n[How you'll categorize and structure findings for easy synthesis]\n</organization_framework>\n\n<quality_criteria>\n[Standards for evaluating source credibility and relevance]\n</quality_criteria>\n\n<clarifying_questions>\n[Specific questions to refine research scope and approach]\n</clarifying_questions>",
+          "tips": [
+            "Start broad then narrow - begin with overview sources before diving deep",
+            "Track your search terms and sources to avoid duplication and identify gaps",
+            "If you're not finding quality sources, the AI can suggest alternative search strategies",
+            "Set time limits for each research phase to avoid endless searching"
+          ]
+        },
+        {
+          "title": "Information Analysis and Synthesis",
+          "description": "Systematically analyze findings and synthesize insights into coherent conclusions",
+          "tool": "Claude-4-Opus",
+          "toolReason": "Essential for complex analytical thinking and pattern recognition across multiple sources. Superior at identifying connections and synthesizing insights.",
+          "timeEstimate": "25 minutes",
+          "prompt": "You are a senior research analyst with expertise in evidence synthesis, critical thinking, and insight generation. Work systematically through the information to extract maximum value and identify key patterns.\n\n<instructions>\nAnalyze and synthesize your research findings:\n\n1. **Source Evaluation**: Assess credibility, recency, and relevance of each source\n2. **Fact Extraction**: Identify key facts, statistics, and concrete findings\n3. **Pattern Recognition**: Find themes, trends, and relationships across sources\n4. **Gap Analysis**: Identify missing information or conflicting evidence\n5. **Insight Development**: Generate actionable conclusions and recommendations\n6. **Confidence Assessment**: Rate certainty levels for each conclusion\n\nThink step by step through potential contradictions or weak evidence. If you encounter conflicting information, ask clarifying questions about how to prioritize or reconcile differences.\n</instructions>\n\n<research_findings>\n[Paste your collected information, organized by source]\n\nSource 1: [Title/URL]\n- Key findings: [bullet points]\n- Credibility: [high/medium/low with reasoning]\n- Date: [publication date]\n\nSource 2: [Continue for each source]\n</research_findings>\n\n<analysis_framework>\nPriority focus areas: [most important aspects to analyze]\nSuccess metrics: [how to measure research quality]\nDecision criteria: [what conclusions matter most]\n</analysis_framework>\n\n<thinking>\n[Your systematic analysis of the evidence and emerging patterns]\n</thinking>\n\n<key_findings>\n**High Confidence**: [Well-supported conclusions with multiple source confirmation]\n**Medium Confidence**: [Likely conclusions with some supporting evidence]\n**Low Confidence**: [Tentative conclusions requiring more research]\n</key_findings>\n\n<synthesis>\n**Main Conclusions**: [Primary insights that answer your research questions]\n**Supporting Evidence**: [Key data points and sources for each conclusion]\n**Contradictions**: [Areas where sources disagree and how to interpret]\n**Implications**: [What these findings mean for your original purpose]\n</synthesis>\n\n<research_gaps>\n[Important information still missing or unclear]\n</research_gaps>\n\n<next_steps>\n[Recommendations for additional research or validation needed]\n</next_steps>\n\n<actionable_recommendations>\n[Specific, implementable suggestions based on your findings]\n</actionable_recommendations>",
+          "tips": [
+            "Look for information that appears in multiple independent sources for higher confidence",
+            "Note the publication date and methodology of sources when assessing credibility",
+            "If findings seem contradictory, the AI can help you understand why and how to reconcile",
+            "Document your confidence level in each conclusion to guide decision-making"
+          ]
+        }
+      ]
+    }
+  }
+}
