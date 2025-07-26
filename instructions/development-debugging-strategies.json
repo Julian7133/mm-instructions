@@ -1,41 +1,26 @@
 {
   "id": "development-debugging-strategies",
   "title": "AI-Enhanced Debugging and Error Resolution",
-  "description": "Systematically diagnose and resolve complex bugs using AI-assisted analysis and proven debugging methodologies",
+  "description": "Systematically diagnose and resolve complex bugs using proven debugging methodologies",
   "category": "development",
   "difficulty": "advanced",
-  "timeEstimate": "30 minutes",
+  "timeEstimate": "20 minutes",
   "aiScore": 9,
-  "tools": ["Claude-4-Opus", "ChatGPT-4", "Claude-4-Sonnet"],
+  "tools": ["Claude-4-Opus", "ChatGPT-4"],
+  "source": "Based on debugging techniques from 'The Practice of Programming' and Google's debugging guide",
   "languages": {
     "en": {
       "steps": [
         {
-          "title": "Problem Analysis and Debugging Strategy",
-          "description": "Systematically analyze the bug and develop a comprehensive debugging approach using proven methodologies",
+          "title": "Systematic Bug Analysis and Resolution",
+          "description": "Analyze problem and develop systematic debugging approach",
           "tool": "Claude-4-Opus",
-          "toolReason": "Critical for complex problem analysis and strategic thinking. Essential when dealing with multi-layered issues requiring systematic investigation approaches.",
+          "toolReason": "Superior at complex problem analysis and systematic investigation",
           "timeEstimate": "20 minutes",
-          "prompt": "You are an experienced senior software engineer and debugging specialist with expertise in systematic problem-solving, root cause analysis, and complex system troubleshooting. Think step by step through this debugging challenge to develop the most effective resolution approach.\n\n<instructions>\nAnalyze the bug systematically and develop a comprehensive debugging strategy:\n\n1. **Problem Definition**: Clearly articulate the issue, symptoms, and expected behavior\n2. **Hypothesis Generation**: Develop multiple potential root causes based on symptoms\n3. **Investigation Planning**: Design systematic approach to test each hypothesis\n4. **Environment Analysis**: Consider system state, dependencies, and context factors\n5. **Reproduction Strategy**: Plan reliable ways to reproduce the issue\n6. **Isolation Techniques**: Identify methods to narrow down the problem scope\n\nTake time to think through the problem systematically. If critical information about the bug, environment, or expected behavior is missing, ask specific clarifying questions to ensure accurate diagnosis.\n</instructions>\n\n<bug_report>\nIssue description: [describe the problem you're experiencing]\nSteps to reproduce: [how to recreate the issue]\nExpected behavior: [what should happen]\nActual behavior: [what actually happens]\nError messages: [any error logs or messages]\nEnvironment: [OS, browser, versions, etc.]\nRecent changes: [code changes, deployments, config updates]\n</bug_report>\n\n<system_context>\nTechnology stack: [languages, frameworks, databases]\nArchitecture: [monolith/microservices/serverless]\nDeployment environment: [local/staging/production]\nExternal dependencies: [APIs, services, databases]\nMonitoring tools: [logging, metrics, alerting systems]\nCode repository: [version control system and recent commits]\n</system_context>\n\n<thinking>\n[Your step-by-step analysis of the problem and potential causes]\n</thinking>\n\n<problem_analysis>\n**Root Cause Hypotheses** (ranked by likelihood):\n1. [Most likely cause with reasoning]\n2. [Second most likely cause with reasoning]\n3. [Other potential causes]\n\n**Symptom Pattern Analysis**:\n- Timing: [when does it occur?]\n- Frequency: [always/intermittent/specific conditions?]\n- Scope: [affects all users/specific scenarios/certain data?]\n- Severity: [blocking/degraded performance/cosmetic?]\n</problem_analysis>\n\n<debugging_strategy>\n**Investigation Priority Order**:\n1. [First area to investigate with specific steps]\n2. [Second investigation area with methodology]\n3. [Additional areas if needed]\n\n**Reproduction Plan**:\n- Minimal reproduction steps: [simplest way to trigger the bug]\n- Test environment setup: [how to create reliable test conditions]\n- Data requirements: [specific data needed for testing]\n\n**Isolation Techniques**:\n- Component isolation: [how to test individual parts]\n- Environment isolation: [testing in different environments]\n- Data isolation: [testing with different data sets]\n</debugging_strategy>\n\n<investigation_tools>\n**Logging Strategy**: [what to log and where to look]\n**Debugging Tools**: [specific tools for this technology stack]\n**Monitoring Checks**: [metrics or alerts to examine]\n**Code Analysis**: [static analysis or code review areas]\n</investigation_tools>\n\n<clarifying_questions>\n[Specific questions about the environment, recent changes, or missing context]\n</clarifying_questions>",
+          "prompt": "You are a senior software engineer and debugging expert. Think step by step through this debugging challenge.\n\nAnalyze this bug systematically:\n1. Problem definition and hypothesis generation\n2. Investigation strategy and reproduction steps\n3. Root cause analysis\n4. Solution implementation and validation\n\nIssue: [describe the problem you're experiencing]\nError messages: [any logs, stack traces, or error output]\n\nIf you need more details about reproduction steps, environment, code, or recent changes, ask clarifying questions.\n\nProvide:\n**Root Cause Hypotheses**: [ranked by likelihood]\n**Investigation Plan**: [systematic debugging steps]\n**Diagnostic Commands**: [specific debugging tools/commands]\n**Solution**: [minimal fix that addresses root cause]\n**Prevention**: [how to avoid similar issues]\n**Testing**: [how to verify the fix works]",
           "tips": [
-            "Start with the most likely causes based on recent changes",
-            "Document your debugging steps to avoid repeating unsuccessful approaches",
-            "If the AI's hypotheses don't match your intuition, provide more context about the system",
-            "Use version control to identify what changed when the problem started"
-          ]
-        },
-        {
-          "title": "Solution Implementation and Validation",
-          "description": "Implement the fix and establish comprehensive validation to prevent regression",
-          "tool": "Claude-4-Sonnet",
-          "toolReason": "Excellent at code analysis, fix implementation, and systematic testing approaches for ensuring robust solutions",
-          "timeEstimate": "10 minutes",
-          "prompt": "You are a senior software engineer specializing in reliable bug fixes and quality assurance. Focus on implementing robust solutions that not only fix the immediate issue but prevent similar problems in the future.\n\n<instructions>\nImplement and validate the bug fix comprehensively:\n\n1. **Root Cause Confirmation**: Verify the actual cause matches your hypothesis\n2. **Solution Design**: Develop the minimal, safest fix that addresses the root cause\n3. **Implementation Planning**: Consider potential side effects and rollback strategies\n4. **Testing Strategy**: Design comprehensive tests to validate the fix\n5. **Prevention Measures**: Identify ways to prevent similar issues\n6. **Documentation**: Record the issue and solution for future reference\n\nIf the proposed solution seems risky or incomplete, ask specific questions about constraints, requirements, or alternative approaches.\n</instructions>\n\n<debugging_results>\n[Paste findings from your investigation and confirmed root cause]\n</debugging_results>\n\n<solution_constraints>\nCode change restrictions: [areas that cannot be modified]\nTesting limitations: [time, environment, or data constraints]\nDeployment requirements: [when and how fixes can be deployed]\nBackward compatibility: [versions that must remain supported]\nPerformance considerations: [any performance requirements]\n</solution_constraints>\n\n<current_codebase>\n[Paste relevant code sections that need to be modified]\n</current_codebase>\n\n**ROOT CAUSE CONFIRMATION**\n[Specific evidence that confirms the actual cause of the bug]\n\n**SOLUTION IMPLEMENTATION**\n```[language]\n// Bug fix implementation\n// Comments explaining why this approach was chosen\n[Clean, minimal code changes that address the root cause]\n```\n\n**CHANGE ANALYSIS**\n- Files modified: [list of changed files]\n- Functions/methods affected: [specific code areas]\n- Potential side effects: [other functionality that might be impacted]\n- Rollback strategy: [how to quickly revert if needed]\n\n**COMPREHENSIVE TESTING PLAN**\n```[language]\n// Test cases to validate the fix\n[Specific tests that prove the bug is resolved]\n\n// Regression tests\n[Tests to ensure existing functionality still works]\n\n// Edge case validation\n[Tests for boundary conditions and unusual scenarios]\n```\n\n**VALIDATION CHECKLIST**\n- [ ] Original bug scenario no longer reproduces\n- [ ] Edge cases handled appropriately\n- [ ] No regression in existing functionality\n- [ ] Performance impact acceptable\n- [ ] Error handling improved\n- [ ] Logging enhanced for future debugging\n\n**PREVENTION MEASURES**\n- Code improvements: [refactoring or architecture changes]\n- Monitoring enhancements: [better alerts or logging]\n- Testing additions: [new automated tests]\n- Documentation updates: [knowledge sharing]\n\n**DEPLOYMENT STRATEGY**\n- Deployment order: [which environments and in what sequence]\n- Monitoring during rollout: [what to watch for problems]\n- Success criteria: [how to confirm the fix is working]\n- Rollback triggers: [conditions that would require reverting]",
-          "tips": [
-            "Make the smallest change possible that fully addresses the root cause",
-            "Add logging or monitoring to help detect similar issues in the future",
-            "Test the fix in an environment that closely matches production",
-            "Document the issue and solution for other team members"
+            "Start with the most recent changes to the system",
+            "Use version control to identify when the problem started"
           ]
         }
       ]

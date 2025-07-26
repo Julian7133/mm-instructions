@@ -1,41 +1,26 @@
 {
   "id": "productivity-document-formatting",
   "title": "Professional Document Structure & Formatting",
-  "description": "Transform disorganized content into polished, professional documents with optimal structure and formatting",
+  "description": "Transform disorganized content into polished, professional documents",
   "category": "productivity",
   "difficulty": "beginner",
-  "timeEstimate": "25 minutes",
-  "aiScore": 8,
-  "tools": ["Claude-4-Sonnet", "ChatGPT-4", "Gemini-2.5-Pro"],
+  "timeEstimate": "10 minutes",
+  "aiScore": 7,
+  "tools": ["Claude-4-Sonnet", "ChatGPT-4"],
+  "source": "Based on technical writing best practices from Medium and content strategy guides",
   "languages": {
     "en": {
       "steps": [
         {
-          "title": "Content Analysis and Structure Planning",
-          "description": "Analyze raw content and design optimal document structure with clear hierarchy",
+          "title": "Document Structure and Formatting",
+          "description": "Organize content and apply professional formatting",
           "tool": "Claude-4-Sonnet",
-          "toolReason": "Strong analytical capabilities for organizing information and creating logical document flow. Excellent at understanding content relationships.",
-          "timeEstimate": "15 minutes",
-          "prompt": "You are an experienced technical writer and content strategist with expertise in document design and information architecture. Take time to think step by step through this content organization challenge.\n\n<instructions>\nAnalyze the provided content and create a comprehensive document structure plan:\n\n1. Identify the main purpose and target audience\n2. Extract key themes and organize into logical sections\n3. Determine appropriate document hierarchy (H1, H2, H3 levels)\n4. Suggest visual elements (tables, lists, callouts, diagrams)\n5. Recommend optimal page layout and formatting\n6. Identify missing information that should be added\n\nThink step by step through the content. If the purpose or audience is unclear, ask specific clarifying questions.\n</instructions>\n\n<raw_content>\n[Paste your unstructured content here]\n</raw_content>\n\n<document_context>\nDocument type: [report/proposal/manual/guide/etc.]\nTarget audience: [internal team/clients/general public/etc.]\nIntended use: [reference/presentation/training/etc.]\nLength target: [brief/detailed/comprehensive]\n</document_context>\n\n<thinking>\n[Your step-by-step analysis of the content and structure needs]\n</thinking>\n\n<document_outline>\n[Detailed hierarchical outline with section descriptions]\n</document_outline>\n\n<formatting_recommendations>\n[Specific formatting suggestions for headers, lists, tables, etc.]\n</formatting_recommendations>\n\n<missing_elements>\n[Content gaps that should be addressed]\n</missing_elements>\n\n<clarifying_questions>\n[Questions to refine document requirements]\n</clarifying_questions>",
-          "tips": [
-            "Clearly define your document's primary purpose before starting",
-            "Consider how readers will actually use the document (reference vs. sequential reading)",
-            "If the AI suggests unclear structure, ask for more specific section breakdowns",
-            "Provide examples of similar documents you admire for better guidance"
-          ]
-        },
-        {
-          "title": "Content Refinement and Professional Formatting",
-          "description": "Apply professional formatting and refine content for clarity and impact",
-          "tool": "ChatGPT-4",
-          "toolReason": "Exceptional at language refinement, tone adjustment, and detailed formatting implementation",
+          "toolReason": "Excellent at organizing information and creating clear document structure",
           "timeEstimate": "10 minutes",
-          "prompt": "You are a professional editor and document designer with expertise in corporate communications and visual design principles. Work through this systematically to create the highest quality output.\n\n<instructions>\nUsing the structure plan provided, refine and format the content:\n\n1. Rewrite content for clarity, conciseness, and professional tone\n2. Implement proper heading hierarchy and formatting\n3. Create effective lists, tables, and callout boxes\n4. Ensure consistent style and voice throughout\n5. Add transition sentences between sections\n6. Optimize for readability (sentence length, paragraph breaks)\n\nIf you encounter content that doesn't fit the intended tone or audience, ask for clarification on the desired style.\n</instructions>\n\n<structure_plan>\n[Paste the document outline from previous step]\n</structure_plan>\n\n<content_to_format>\n[Your organized content ready for formatting]\n</content_to_format>\n\n<style_preferences>\nTone: [formal/casual/technical/friendly]\nFormatting style: [corporate/academic/creative/minimal]\nSpecial requirements: [specific formatting needs]\n</style_preferences>\n\nFormat your response with proper markdown formatting:\n\n# [Document Title]\n\n## [Main sections with proper hierarchy]\n\n### [Subsections as needed]\n\n- Use bullet points for lists\n- **Bold** for emphasis\n- *Italics* for definitions or key terms\n- `Code formatting` if applicable\n\n> Callout boxes for important information\n\n| Tables | When | Appropriate |\n|--------|------|-------------|\n| Data | Yes | Organized format |\n\nInclude a brief note on any formatting choices that might need adjustment based on your final platform (Word, Google Docs, etc.)",
+          "prompt": "You are an experienced technical writer. Think step by step to organize this content.\n\nRestructure this content with:\n1. Clear document hierarchy (H1, H2, H3)\n2. Professional formatting (lists, tables, emphasis)\n3. Logical flow and transitions\n4. Consistent tone and style\n\nContent: [paste your unstructured content here]\n\nIf needed, ask clarifying questions about document type, target audience, or desired tone.\n\nFormat using markdown with:\n- **Bold** for key points\n- Lists for multiple items\n- Tables for data\n- > Callouts for important notes",
           "tips": [
-            "Use consistent formatting throughout - establish a style guide",
-            "Break up long paragraphs for better readability",
-            "Use active voice and strong verbs for more engaging content",
-            "Test formatting in your final document platform to ensure compatibility"
+            "Start with a clear document outline before formatting",
+            "Use consistent heading styles throughout"
           ]
         }
       ]
