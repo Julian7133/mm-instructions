@@ -24,6 +24,22 @@
           ]
         }
       ]
+    },
+    "de": {
+      "steps": [
+        {
+          "title": "E-Mail-Automatisierung einrichten",
+          "description": "E-Mail-Filterregeln und Antwortvorlagen gestalten",
+          "tool": "ChatGPT-4",
+          "toolReason": "Exzellent bei Workflow-Optimierung und praktischem Automatisierungsdesign",
+          "timeEstimate": "20 Minuten",
+          "prompt": "Du bist ein E-Mail-Produktivitätsexperte. Denke schrittweise, um ein effektives E-Mail-Automatisierungssystem zu erstellen.\n\nDesigne Automatisierung für:\n1. E-Mail-Filterung und Organisation\n2. Prioritätsklassifikation\n3. Antwortvorlagen\n4. Benachrichtigungsmanagement\n\nTägliches E-Mail-Volumen: [ungefähre Anzahl E-Mails pro Tag]\nGrößte Schmerzpunkte: [was bei E-Mails am zeitaufwendigsten ist]\n\nWenn du mehr Details über E-Mail-Typen, Tools oder spezifische Arbeitsabläufe benötigst, stelle klärende Fragen.\n\nStelle bereit:\n**Filterregeln**: [spezifische Filterkriterien für jeden E-Mail-Typ]\n**Prioritätssystem**: [VIP/dringend/normal/niedrig Klassifikation]\n**Vorlagen**: [schnelle Antwortvorlagen für häufige Szenarien]\n**Automatisierungssetup**: [schrittweise Konfiguration für deinen E-Mail-Client]\n**Zeitersparnis**: [geschätzte tägliche Zeitersparnis]\n\nFüge spezifische technische Schritte für die Implementierung hinzu.",
+          "tips": [
+            "Mit einfachen Filtern beginnen, bevor Komplexität hinzugefügt wird",
+            "Automatisierung zuerst mit unkritischen E-Mails testen"
+          ]
+        }
+      ]
     }
   }
 }

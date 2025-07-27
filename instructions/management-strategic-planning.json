@@ -24,6 +24,22 @@
           ]
         }
       ]
+    },
+    "de": {
+      "steps": [
+        {
+          "title": "Strategische Analyse und Planentwicklung",
+          "description": "Situationsanalyse durchführen und umfassenden strategischen Plan mit Umsetzungsfahrplan entwickeln",
+          "tool": "Claude-4-Opus",
+          "toolReason": "Essenziell für komplexes strategisches Denken und Multi-Faktor-Analyse",
+          "timeEstimate": "40 Minuten",
+          "prompt": "Du bist ein erfahrener strategischer Planungsberater und Geschäftsstrategie-Experte. Denke schrittweise durch diese strategische Planungsherausforderung.\n\nEntwickle einen umfassenden strategischen Plan, der abdeckt:\n1. Situationsanalyse (SWOT, Wettbewerbslandschaft)\n2. Strategische Ziele und Schlüsselergebnisse (OKRs)\n3. Initiativplanung mit Zeitplänen und Ressourcen\n4. Umsetzungsfahrplan mit Verantwortlichkeiten\n\nOrganisation: [Unternehmen/Abteilung/Team-Name]\nAktuelle Situation: [beschreibe aktuelle Position, Leistung und Hauptherausforderungen]\n\nWenn du mehr Kontext über Branche, Planungshorizont, Einschränkungen oder Stakeholder benötigst, stelle klärende Fragen.\n\nStelle bereit:\n**Situationsanalyse**: [SWOT-Analyse und Wettbewerbsbewertung]\n**Strategische Vision**: [wo du sein möchtest]\n**Strategische Ziele**: [3-5 Hauptziele mit Erfolgsmetriken]\n**Schlüsselinitiativen**: [spezifische Projekte zur Zielerreichung]\n**Ressourcenanforderungen**: [Budget, Personal, benötigte Systeme]\n**Umsetzungszeitplan**: [Phasen, Meilensteine, Abhängigkeiten]\n**Erfolgsmetriken**: [KPIs und Messrahmen]\n**Risikobewertung**: [wichtige Risiken und Minderungsstrategien]\n**Governance**: [Entscheidungsfindung und Überprüfungsprozesse]\n\n**90-Tage-Schnellgewinne**: [sofortige Aktionen zum Aufbau von Momentum]\n**Jährliche strategische Überprüfung**: [wie Strategie verfolgt und angepasst wird]\n\nStelle sicher, dass der Plan:\n- Spezifisch und messbar ist\n- Realistisch aber ehrgeizig ist\n- Klar kommuniziert wird",
+          "tips": [
+            "Mit klarem Verständnis des aktuellen Zustands vs. gewünschtem Zukunftszustand beginnen",
+            "Sicherstellen, dass strategische Prioritäten spezifisch und messbar sind"
+          ]
+        }
+      ]
     }
   }
 }

@@ -24,6 +24,22 @@
           ]
         }
       ]
+    },
+    "de": {
+      "steps": [
+        {
+          "title": "Leistungsbewertung und Beurteilungsschreibung",
+          "description": "Leistung systematisch bewerten und umfassende schriftliche Beurteilung erstellen",
+          "tool": "Claude-4-Opus",
+          "toolReason": "Kritisch für faire Leistungsbewertung und strategische Entwicklungsplanung",
+          "timeEstimate": "25 Minuten",
+          "prompt": "Du bist ein erfahrener HR-Leiter und Personalmanagement-Experte. Denke schrittweise, um eine faire, umfassende Leistungsbeurteilung zu erstellen.\n\nAnalysiere die Leistung und schreibe eine Beurteilung, die abdeckt:\n1. Objektive Leistungsbewertung gegen Ziele\n2. Kompetenzbewertung und Verhaltensbeobachtungen\n3. Leistungshöhepunkte und Entwicklungsbereiche\n4. Spezifischen Entwicklungsplan mit umsetzbaren Zielen\n\nMitarbeiter: [Mitarbeitername]\nRolle: [Position und Ebene]\nLeistungsdaten: [beschreibe ihre Zielerreichung, wichtige Projekte, Metriken und erhaltenes Feedback]\n\nWenn du mehr Kontext über Bewertungszeitraum, vorherige Bewertungen oder spezifische Herausforderungen benötigst, stelle klärende Fragen.\n\nStelle bereit:\n**Leistungszusammenfassung**: [Gesamtbewertung mit Belegen]\n**Zielerreichung**: [spezifische Ergebnisse vs. Ziele]\n**Stärken**: [Bereiche starker Leistung mit Beispielen]\n**Entwicklungsbereiche**: [Verbesserungsbedarf mit spezifischen Beispielen]\n**Entwicklungsplan**: [SMART-Ziele für nächste Periode]\n**Unterstützungsverpflichtung**: [wie du ihnen zum Erfolg hilfst]\n**Karrieregespräch**: [Wachstumsmöglichkeiten und nächste Schritte]\n\nStelle sicher, dass die Beurteilung:\n- Spezifisch und evidenzbasiert ist\n- Ausgewogen und fair ist\n- Zukunftsorientiert und umsetzbar ist",
+          "tips": [
+            "Spezifische Beispiele und messbare Ergebnisse verwenden",
+            "Anerkennung mit Entwicklungsführung ausbalancieren"
+          ]
+        }
+      ]
     }
   }
 }

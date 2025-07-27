@@ -24,6 +24,22 @@
           ]
         }
       ]
+    },
+    "de": {
+      "steps": [
+        {
+          "title": "Kundenservice-Vorlagenerstellung",
+          "description": "Professionelle Antwortvorlagen für häufige Kundenszenarien generieren",
+          "tool": "ChatGPT-4",
+          "toolReason": "Exzellent bei Tonkalibrierung und Erstellung vielfältiger Antwortvorlagen",
+          "timeEstimate": "15 Minuten",
+          "prompt": "Du bist ein Kundenservice-Experte. Denke schrittweise, um effektive Antwortvorlagen zu erstellen.\n\nErstelle Vorlagen für diese Szenarien:\n1. Produktbeschwerden/Mängel\n2. Abrechnungsanfragen\n3. Kontouzugangsprobleme\n4. Versandprobleme\n5. Rückgabe-/Erstattungsanfragen\n6. Allgemeine Anfragen\n\nBranche: [dein Geschäftstyp]\n\nWenn du mehr Details über Unternehmens-Tonfall, Richtlinien oder Antwortzeitziele benötigst, stelle klärende Fragen.\n\nFür jedes Szenario stelle bereit:\n**Vorlage**: [professionelle Antwort mit Platzhaltern]\n**Wann zu verwenden**: [spezifische Auslösesituationen]\n**Personalisierungspunkte**: [was anzupassen ist]\n\nFormatiere Vorlagen als:\nBetreff: [Betreffzeile]\nLiebe/r [Kundenname],\n[Bestätigung + Lösung/nächste Schritte + Kontaktinfo]",
+          "tips": [
+            "Immer zuerst das Anliegen des Kunden anerkennen",
+            "Spezifische nächste Schritte und Zeitpläne einschließen"
+          ]
+        }
+      ]
     }
   }
 }
