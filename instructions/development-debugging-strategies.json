@@ -24,6 +24,22 @@
           ]
         }
       ]
+    },
+    "de": {
+      "steps": [
+        {
+          "title": "Systematische Fehleranalyse und -behebung",
+          "description": "Problem analysieren und systematischen Debugging-Ansatz entwickeln",
+          "tool": "Claude-4-Opus",
+          "toolReason": "Überlegen bei komplexer Problemanalyse und systematischer Untersuchung",
+          "timeEstimate": "20 Minuten",
+          "prompt": "Du bist ein leitender Software-Ingenieur und Debugging-Experte. Denke schrittweise durch diese Debugging-Herausforderung.\n\nAnalysiere diesen Fehler systematisch:\n1. Problemdefinition und Hypothesengenerierung\n2. Untersuchungsstrategie und Reproduktionsschritte\n3. Grundursachenanalyse\n4. Lösungsimplementierung und Validierung\n\nProblem: [beschreibe das Problem, das du erlebst]\nFehlermeldungen: [alle Logs, Stack-Traces oder Fehlerausgaben]\n\nWenn du mehr Details über Reproduktionsschritte, Umgebung, Code oder kürzliche Änderungen benötigst, stelle klärende Fragen.\n\nStelle bereit:\n**Grundursachen-Hypothesen**: [nach Wahrscheinlichkeit gerankt]\n**Untersuchungsplan**: [systematische Debugging-Schritte]\n**Diagnosebefehle**: [spezifische Debugging-Tools/Befehle]\n**Lösung**: [minimale Korrektur, die Grundursache behebt]\n**Prävention**: [wie ähnliche Probleme vermieden werden]\n**Testen**: [wie die Korrektur verifiziert wird]",
+          "tips": [
+            "Mit den neuesten Änderungen am System beginnen",
+            "Versionskontrolle nutzen, um zu identifizieren, wann das Problem begann"
+          ]
+        }
+      ]
     }
   }
 }

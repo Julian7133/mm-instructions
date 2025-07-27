@@ -24,6 +24,23 @@
           ]
         }
       ]
+    },
+    "de": {
+      "steps": [
+        {
+          "title": "Aufgabenanalyse",
+          "description": "Komplexe Aufgaben in handhabbare Komponenten aufteilen",
+          "tool": "ChatGPT",
+          "toolReason": "Exzellent bei strukturierter Analyse und Aufschlüsselung",
+          "timeEstimate": "10 Minuten",
+          "prompt": "Hilf mir, diese komplexe Aufgabe aufzuschlüsseln: [Aufgabenbeschreibung]. Erstelle eine strukturierte Aufschlüsselung mit Prioritäten und Abhängigkeiten.",
+          "tips": [
+            "Fokus auf Ergebnisse, nicht nur auf Aktivitäten",
+            "Kritische Pfad-Abhängigkeiten identifizieren",
+            "Messbare Erfolgskriterien festlegen"
+          ]
+        }
+      ]
     }
   }
 }

@@ -37,6 +37,36 @@
           ]
         }
       ]
+    },
+    "de": {
+      "steps": [
+        {
+          "title": "Code-Qualitätsanalyse",
+          "description": "Code auf bewährte Praktiken, Muster und potenzielle Probleme analysieren",
+          "tool": "Claude",
+          "toolReason": "Überlegene Code-Analyse und Mustererkennung",
+          "timeEstimate": "15 Minuten",
+          "prompt": "Überprüfe diesen Code auf: 1) Code-Qualität und bewährte Praktiken 2) Potenzielle Fehler oder Sicherheitsprobleme 3) Performance-Optimierungen 4) Verbesserungen der Lesbarkeit. Code: [Code hier einfügen]",
+          "tips": [
+            "Fokus auf Wartbarkeit und Lesbarkeit",
+            "Ordnungsgemäße Fehlerbehandlung prüfen",
+            "Sicherheits-Best-Practices verifizieren"
+          ]
+        },
+        {
+          "title": "Dokumentations- und Testüberprüfung",
+          "description": "Ordnungsgemäße Dokumentation und Testabdeckung sicherstellen",
+          "tool": "ChatGPT",
+          "toolReason": "Exzellent beim Generieren von Dokumentations- und Testvorschlägen",
+          "timeEstimate": "15 Minuten",
+          "prompt": "Analysiere diesen Code und schlage vor: 1) Fehlende Dokumentation 2) Zusätzlich benötigte Testfälle 3) Verbesserungen der Inline-Kommentare. Berücksichtige die Zielgruppe: [Team/Öffentlich/Unternehmen]. Code: [Code hier einfügen]",
+          "tips": [
+            "Sicherstellen, dass öffentliche APIs gut dokumentiert sind",
+            "Testabdeckung für Grenzfälle prüfen",
+            "Verifizieren, dass Code-Kommentare 'warum' erklären, nicht 'was'"
+          ]
+        }
+      ]
     }
   }
 }

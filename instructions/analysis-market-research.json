@@ -24,6 +24,22 @@
           ]
         }
       ]
+    },
+    "de": {
+      "steps": [
+        {
+          "title": "Marktforschungsstrategie und -analyse",
+          "description": "Forschungsansatz entwickeln und Marktintelligenz in strategische Erkenntnisse synthetisieren",
+          "tool": "Claude-4-Opus",
+          "toolReason": "Essenziell für komplexe strategische Analyse und Multi-Quellen-Synthese",
+          "timeEstimate": "35 Minuten",
+          "prompt": "Du bist ein erfahrener Marktforschungsanalyst und Strategieberater. Denke schrittweise, um umfassende Marktintelligenz zu entwickeln.\n\nFühre Marktforschung durch, die abdeckt:\n1. Marktgrößen- und Segmentierungsanalyse\n2. Wettbewerbslandschaft-Kartierung\n3. Kundenbedürfnisse und Verhaltensanalyse\n4. Branchentrends und Wachstumstreiber\n5. Strategische Chancen und Bedrohungen\n\nMarkt/Branche: [spezifischer Markt oder Branche zur Erforschung]\nZweck: [Markteintritt/Expansion/Wettbewerbsanalyse/Investitionsentscheidung]\n\nWenn du mehr Details über geografischen Umfang, Zielsegmente oder Zeitrahmen benötigst, stelle klärende Fragen.\n\nStelle bereit:\n**Marktüberblick**: [Größe, Wachstum, Schlüsselcharakteristika]\n**Wettbewerbsanalyse**: [Hauptakteure, Marktanteil, Positionierung]\n**Kundenerkenntnisse**: [Bedürfnisse, Verhalten, Entscheidungsfaktoren]\n**Markttrends**: [Wachstumstreiber, Disruptionen, Zukunftsausblick]\n**Chancen**: [Marktlücken und Wachstumschancen]\n**Strategische Empfehlungen**: [Markteintritts-/Expansionsstrategie]\n**Risikobewertung**: [wichtige Marktrisiken und Minderung]\n\nFüge spezifische Marktdaten und glaubwürdige Quellen für jede Erkenntnis hinzu.",
+          "tips": [
+            "Mehrere Quellen nutzen, um wichtige Marktgrößenschätzungen zu validieren",
+            "Fokus auf umsetzbare Erkenntnisse, die Geschäftsstrategie informieren"
+          ]
+        }
+      ]
     }
   }
 }

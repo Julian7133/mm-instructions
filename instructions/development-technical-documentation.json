@@ -24,6 +24,22 @@
           ]
         }
       ]
+    },
+    "de": {
+      "steps": [
+        {
+          "title": "Technische Dokumentationsstrategie und -erstellung",
+          "description": "System analysieren und umfassende technische Dokumentation erstellen",
+          "tool": "Claude-4-Sonnet",
+          "toolReason": "Exzellent beim technischen Schreiben und Organisieren komplexer Informationen",
+          "timeEstimate": "25 Minuten",
+          "prompt": "Du bist ein erfahrener technischer Redakteur und Software-Dokumentationsspezialist. Denke schrittweise, um exzellente technische Dokumentation zu erstellen.\n\nErstelle umfassende technische Dokumentation, die abdeckt:\n1. Systemüberblick und Architektur\n2. Erste Schritte Leitfaden für neue Entwickler\n3. Detaillierte Benutzerleitfäden und Referenzmaterial\n4. Fehlerbehebung und Wartung\n\nSystemtyp: [Web-App/API/Bibliothek/Framework/Tool]\n\nWenn du Details über Technologie-Stack, Zielgruppe oder Systemkomplexität benötigst, stelle klärende Fragen.\n\nStelle bereit:\n**Dokumentationsstruktur**: [logische Organisation des Inhalts]\n**Schnellstart-Leitfaden**: [5-Minuten-Setup mit erstem Erfolg]\n**Architekturüberblick**: [Systemkomponenten und Beziehungen]\n**Benutzerleitfäden**: [schrittweise Arbeitsabläufe für häufige Aufgaben]\n**Referenzdokumentation**: [detaillierte Spezifikationen, APIs, Konfiguration]\n**Fehlerbehebung**: [häufige Probleme und Lösungen]\n**Wartung**: [Updates, Deployment, Überwachung]\n\nVerwende klare Formatierung mit:\n- Konsistenter Überschriftenhierarchie\n- Code-Beispielen mit Syntax-Hervorhebung\n- Tabellen für strukturierte Daten\n- Hinweiskästen für wichtige Notizen",
+          "tips": [
+            "Mit den häufigsten Benutzer-Journeys beginnen",
+            "Funktionierende Code-Beispiele einschließen, keine Platzhalter"
+          ]
+        }
+      ]
     }
   }
 }
