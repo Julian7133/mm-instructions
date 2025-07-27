@@ -24,6 +24,22 @@
           ]
         }
       ]
+    },
+    "de": {
+      "steps": [
+        {
+          "title": "API-Dokumentationserstellung",
+          "description": "Vollständige API-Dokumentation mit Beispielen und Anwendungsfällen generieren",
+          "tool": "Claude-4-Opus",
+          "toolReason": "Exzellent im Verstehen komplexer APIs und Erstellen klarer Dokumentation",
+          "timeEstimate": "25 Minuten",
+          "prompt": "Du bist ein erfahrener API-Entwickler und technischer Redakteur. Denke schrittweise, um exzellente API-Dokumentation zu erstellen.\n\nErstelle umfassende API-Dokumentation, die abdeckt:\n1. Erste Schritte Leitfaden mit Authentifizierung\n2. Endpunkt-Dokumentation mit Beispielen\n3. Fehlerbehandlung und Statuscodes\n4. Integrationsmuster und bewährte Praktiken\n\nAPI-Details: [beschreibe deine API, füge OpenAPI-Spezifikation ein oder gib Endpunkt-Details an]\n\nWenn du mehr Kontext über Zielentwickler, Authentifizierungsmethode oder spezifische Anwendungsfälle benötigst, stelle klärende Fragen.\n\nStelle bereit:\n**Schnellstart**: [5-Minuten-Setup mit funktionierendem Beispiel]\n**Endpunkt-Referenz**: [Methode, URL, Parameter, Antworten]\n**Code-Beispiele**: [in 2-3 beliebten Sprachen]\n**Fehlerbehandlung**: [Statuscodes und Fehlerformat]\n**Integrationsleitfaden**: [häufige Muster und bewährte Praktiken]\n**Testen**: [wie API-Aufrufe getestet werden]\n\nStelle sicher, dass Beispiele:\n- Funktionieren und kopierbar sind\n- Realistische Daten verwenden, keine Platzhalter\n- Fehlerszenarien einschließen",
+          "tips": [
+            "Mit dem häufigsten Anwendungsfall beginnen",
+            "Funktionierende Code-Beispiele einschließen, die Entwickler kopieren können"
+          ]
+        }
+      ]
     }
   }
 }

@@ -24,6 +24,22 @@
           ]
         }
       ]
+    },
+    "de": {
+      "steps": [
+        {
+          "title": "Datenvisualisierungsstrategie und Umsetzung",
+          "description": "Daten analysieren und effektive Visualisierungen für die Kommunikation von Erkenntnissen erstellen",
+          "tool": "Claude-4-Opus",
+          "toolReason": "Überlegen bei der Identifikation von Mustern und der Bestimmung optimaler visueller Darstellung",
+          "timeEstimate": "20 Minuten",
+          "prompt": "Du bist ein Experte für Datenvisualisierung und Analyst. Denke schrittweise, um die effektivsten Visualisierungen zu erstellen.\n\nAnalysiere diese Daten und erstelle eine Visualisierungsstrategie:\n1. Wichtige Muster und Erkenntnisse identifizieren\n2. Optimale Diagrammtypen für jede Erkenntnis auswählen\n3. Klare, zugängliche Visualisierungen gestalten\n4. Umsetzungsleitfaden bereitstellen\n\nDatansatz: [beschreibe deine Daten, füge Beispieldaten ein oder lade deinen Datensatz hoch]\n\nWenn du mehr Kontext über Zielgruppe, Zweck oder verfügbare Tools benötigst, stelle klärende Fragen.\n\nStelle bereit:\n**Wichtige Erkenntnisse**: [hauptsächliche Muster und Trends zur Hervorhebung]\n**Diagramm-Empfehlungen**: [spezifische Diagrammtypen mit Begründung]\n**Design-Spezifikationen**: [Farben, Layout, Formatierung]\n**Umsetzungscode**: [funktionierende Code-Beispiele falls benötigt]\n**Barrierefreiheit**: [farbenblind-freundliche Optionen]\n**Story-Ablauf**: [logische Sequenz für die Präsentation von Erkenntnissen]\n\nStelle sicher, dass Visualisierungen:\n- Klar und übersichtlich sind\n- Für alle Nutzer zugänglich sind\n- Auf wichtige Erkenntnisse fokussiert sind",
+          "tips": [
+            "Diagrammtypen basierend auf der Beziehung wählen, die gezeigt werden soll",
+            "Farbe strategisch einsetzen, um wichtige Erkenntnisse hervorzuheben"
+          ]
+        }
+      ]
     }
   }
 }

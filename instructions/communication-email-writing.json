@@ -37,6 +37,36 @@
           ]
         }
       ]
+    },
+    "de": {
+      "steps": [
+        {
+          "title": "E-Mail-Strukturplanung",
+          "description": "E-Mail-Inhalte mit klarem Zweck und Ablauf organisieren",
+          "tool": "Claude",
+          "toolReason": "Stark bei der Strukturierung professioneller Kommunikation",
+          "timeEstimate": "5 Minuten",
+          "prompt": "Hilf mir, eine E-Mail zu strukturieren für: [Zweck]. Füge Betreffzeile, Begrüßung, Hauptpunkte und Abschluss hinzu. Zielgruppe: [Zielgruppenbeschreibung].",
+          "tips": [
+            "Mit den wichtigsten Informationen beginnen",
+            "Aufzählungspunkte für mehrere Punkte verwenden",
+            "Absätze kurz und fokussiert halten"
+          ]
+        },
+        {
+          "title": "Ton- und Sprachoptimierung",
+          "description": "Ton und Sprache für professionelle Wirkung verfeinern",
+          "tool": "ChatGPT",
+          "toolReason": "Exzellent bei Tonanpassung und Sprachverfeinerung",
+          "timeEstimate": "10 Minuten",
+          "prompt": "Überprüfe diesen E-Mail-Entwurf und schlage Verbesserungen für Ton, Klarheit und Professionalität vor: [E-Mail-Entwurf]. Die Beziehung zum Empfänger ist: [professionell/formal/ungezwungen].",
+          "tips": [
+            "Formalität an Beziehungsebene anpassen",
+            "Wenn möglich, Aktiv verwenden",
+            "Auf Grammatik und Rechtschreibung überprüfen"
+          ]
+        }
+      ]
     }
   }
 }

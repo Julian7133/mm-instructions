@@ -24,6 +24,22 @@
           ]
         }
       ]
+    },
+    "de": {
+      "steps": [
+        {
+          "title": "Business Intelligence Analyse und Berichterstattung",
+          "description": "Geschäftsdaten analysieren und strategische Erkenntnisse mit Empfehlungen generieren",
+          "tool": "Claude-4-Opus",
+          "toolReason": "Kritisch für strategische Geschäftsanalyse und komplexe Mustererkennung",
+          "timeEstimate": "30 Minuten",
+          "prompt": "Du bist ein leitender Business Intelligence Analyst und strategischer Berater. Denke schrittweise, um umsetzbare Geschäftserkenntnisse zu erstellen.\n\nAnalysiere die Geschäftsleistung und erstelle einen BI-Bericht:\n1. KPI-Analyse und Trend-Identifikation\n2. Leistung vs. Benchmarks und Ziele\n3. Strategische Erkenntnisse und Geschäftsauswirkungen\n4. Umsetzbare Empfehlungen mit Prioritäten\n\nGeschäftsdaten: [füge deine Leistungsdaten, Metriken oder Finanzinformationen ein]\nBranche: [dein Geschäftssektor]\n\nWenn du mehr Kontext über Unternehmensgröße, Analysezeitraum oder Stakeholder benötigst, stelle klärende Fragen.\n\nStelle bereit:\n**Zusammenfassung**: [wichtigste Erkenntnisse und Empfehlungen]\n**Leistungsanalyse**: [KPI-Trends und Varianzanalyse]\n**Strategische Erkenntnisse**: [was die Daten über die Geschäftsgesundheit offenbaren]\n**Benchmark-Vergleich**: [vs. Branche/Konkurrenten/Ziele]\n**Empfehlungen**: [priorisierte Aktionen mit erwartetem Impact]\n**Erfolgsmetriken**: [wie Verbesserungen gemessen werden]\n**Umsetzungszeitplan**: [sofortige, kurzfristige, langfristige Aktionen]\n\nFokussiere auf Erkenntnisse, die Geschäftsentscheidungen vorantreiben.",
+          "tips": [
+            "Alle Erkenntnisse mit spezifischen Geschäftsentscheidungen verknüpfen",
+            "Den Geschäftsimpact der Empfehlungen quantifizieren"
+          ]
+        }
+      ]
     }
   }
 }
