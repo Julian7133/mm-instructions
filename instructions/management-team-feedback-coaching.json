@@ -24,6 +24,22 @@
           ]
         }
       ]
+    },
+    "de": {
+      "steps": [
+        {
+          "title": "Feedback-Vorbereitung und Gesprächsleitfaden",
+          "description": "Effektives Feedback-Gespräch mit klaren Zielen und unterstützendem Ansatz planen",
+          "tool": "Claude-4-Opus",
+          "toolReason": "Essenziell für zwischenmenschliche Strategie und Verständnis der Feedback-Psychologie",
+          "timeEstimate": "20 Minuten",
+          "prompt": "Du bist ein Executive Coach und Personalentwicklungsexperte. Denke schrittweise, um einen effektiven Feedback-Ansatz zu erstellen.\n\nBereite ein Feedback-Gespräch vor, das abdeckt:\n1. Situationsanalyse und Gesprächsziele\n2. Strukturierter Feedback-Übermittlungsansatz\n3. Coaching-Fragen zur Selbstreflexion\n4. Unterstützungsplan und Follow-up-Strategie\n\nTeammitglied: [Name und Rolle]\nSpezifisches Verhalten/Problem: [was angesprochen werden muss]\n\nWenn du mehr Kontext über Geschäftsauswirkungen, Beziehungsdynamik oder Dringlichkeitsgrad benötigst, stelle klärende Fragen.\n\nStelle bereit:\n**Gesprächsziele**: [was du erreichen möchtest]\n**Eröffnungsansatz**: [wie positiv zu beginnen]\n**Feedback-Rahmen**: [SBI - Situation, Verhalten, Auswirkung]\n**Coaching-Fragen**: [Fragen zur Förderung der Selbstreflexion]\n**Lösungsentwicklung**: [kollaborativer Problemlösungsansatz]\n**Unterstützungsplan**: [Ressourcen und laufende Hilfe]\n**Follow-up-Strategie**: [Check-ins und Fortschrittsverfolgung]\n\n**Gesprächsskript**: [spezifische Sprache für Schlüsselmomente]\n**Potenzielle Herausforderungen**: [wie mit defensiven Reaktionen umzugehen]\n**Erfolgsmetriken**: [wie Verbesserungen gemessen werden]\n\nFokus auf Beziehungserhalt bei gleichzeitigem Veränderungsantrieb.",
+          "tips": [
+            "Fokus auf spezifische Verhaltensweisen und ihre Auswirkungen, nicht auf Persönlichkeit",
+            "Mehr Fragen stellen als Aussagen machen"
+          ]
+        }
+      ]
     }
   }
 }

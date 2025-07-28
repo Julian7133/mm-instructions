@@ -24,6 +24,22 @@
           ]
         }
       ]
+    },
+    "de": {
+      "steps": [
+        {
+          "title": "Forschungsstrategie und Synthese",
+          "description": "Forschungsansatz planen und Erkenntnisse in umsetzbare Einsichten synthetisieren",
+          "tool": "Claude-4-Opus",
+          "toolReason": "Überlegen bei komplexer Analyse und Verknüpfung von Erkenntnissen aus mehreren Quellen",
+          "timeEstimate": "25 Minuten",
+          "prompt": "Du bist ein Forschungsanalyst. Denke schrittweise, um eine umfassende Forschungsstrategie zu entwickeln.\n\nErstelle einen Forschungsplan und analysiere Erkenntnisse:\n1. Forschungsfragen und Umfang definieren\n2. Schlüsselquellen und Suchstrategie identifizieren\n3. Quellenglaubwürdigkeit bewerten\n4. Erkenntnisse synthetisieren und Muster identifizieren\n5. Umsetzbare Einsichten generieren\n\nThema: [dein Forschungsgegenstand]\nZweck: [warum du diese Informationen benötigst]\n\nWenn du mehr Kontext über Zielgruppe, Fristen oder Umfang benötigst, stelle klärende Fragen.\n\nStelle bereit:\n**Forschungsfragen**: [spezifische zu beantwortende Fragen]\n**Quellenstrategie**: [zu priorisierende Quellentypen]\n**Wichtigste Erkenntnisse**: [Haupterkenntnisse mit Vertrauensgraden]\n**Synthese**: [wie Erkenntnisse zusammenhängen und was sie bedeuten]\n**Empfehlungen**: [umsetzbare nächste Schritte basierend auf Forschung]\n\nFüge Glaubwürdigkeitsbewertung für jede Hauptquelle hinzu.",
+          "tips": [
+            "Mit Sekundärquellen vor Primärforschung beginnen",
+            "Erkenntnisse über mehrere Quellen hinweg abgleichen"
+          ]
+        }
+      ]
     }
   }
 }

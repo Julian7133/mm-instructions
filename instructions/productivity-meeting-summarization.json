@@ -24,6 +24,22 @@
           ]
         }
       ]
+    },
+    "de": {
+      "steps": [
+        {
+          "title": "Meeting-Zusammenfassung und Aufgaben",
+          "description": "Schlüsselentscheidungen extrahieren und umsetzbare Aufgabenliste erstellen",
+          "tool": "Claude-4-Opus",
+          "toolReason": "Beste Wahl für die Analyse komplexer Meeting-Inhalte und Extraktion strukturierter Erkenntnisse",
+          "timeEstimate": "10 Minuten",
+          "prompt": "Du bist eine erfahrene Assistentin der Geschäftsführung. Denke schrittweise durch diesen Meeting-Inhalt.\n\nAnalysiere dieses Meeting und extrahiere:\n1. Getroffene Schlüsselentscheidungen\n2. Aufgaben mit Verantwortlichen und Fristen\n3. Benötigte Nachverfolgung\n\nMeeting-Inhalt: [füge dein Meeting-Transkript, Notizen oder Aufzeichnung ein]\n\nWenn wichtiger Kontext fehlt (Meeting-Typ, Teilnehmer, Fristen), stelle klärende Fragen.\n\nFormatiere als:\n**Zusammenfassung**: [Überblick in 2-3 Sätzen]\n**Entscheidungen**: [Aufzählungsliste]\n**Aufgaben**: [Aufgabe - Verantwortlicher - Frist]\n**Nächste Schritte**: [Folgemeetings/Check-ins]",
+          "tips": [
+            "Spezifische Namen und Fristen für Aufgaben einschließen",
+            "Um Klärung bitten, wenn Verantwortliche oder Fristen unklar sind"
+          ]
+        }
+      ]
     }
   }
 }

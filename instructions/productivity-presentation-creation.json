@@ -24,6 +24,22 @@
           ]
         }
       ]
+    },
+    "de": {
+      "steps": [
+        {
+          "title": "Präsentationsstrategie und Inhalt",
+          "description": "Präsentationsstruktur entwickeln und überzeugenden Inhalt erstellen",
+          "tool": "Claude-4-Opus",
+          "toolReason": "Exzellent bei strategischem Denken und narrativem Design für Präsentationen",
+          "timeEstimate": "20 Minuten",
+          "prompt": "Du bist ein Präsentationsberater. Denke schrittweise, um eine überzeugende Präsentation zu erstellen.\n\nErstelle eine Präsentationsstrategie:\n1. Zielgruppenanalyse und Kernbotschaft\n2. Logische Folienstruktur\n3. Inhalt für jede Folie\n4. Visuelle Empfehlungen\n\nThema: [dein Präsentationsthema]\nZiel: [was du erreichen möchtest]\n\nWenn du mehr Details über Zielgruppe, Dauer oder Format benötigst, stelle klärende Fragen.\n\nStelle bereit:\n**Kernbotschaft**: [ein klarer Satz]\n**Foliengliederung**: \n- Eröffnung (Hook + Vorschau)\n- 3-5 Hauptpunkte mit Belegen\n- Abschluss (Zusammenfassung + Handlungsaufforderung)\n\n**Folieninhalt**: [spezifische Text- und visuelle Vorschläge für jede Folie]\n**Sprechernotizen**: [wichtige Gesprächspunkte und Timing]",
+          "tips": [
+            "Mit den Bedürfnissen deiner Zielgruppe beginnen, nicht mit deinem Inhalt",
+            "Die 6x6-Regel verwenden: max. 6 Aufzählungspunkte, je 6 Wörter"
+          ]
+        }
+      ]
     }
   }
 }

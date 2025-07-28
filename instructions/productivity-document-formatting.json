@@ -24,6 +24,22 @@
           ]
         }
       ]
+    },
+    "de": {
+      "steps": [
+        {
+          "title": "Dokumentstruktur und Formatierung",
+          "description": "Inhalte organisieren und professionelle Formatierung anwenden",
+          "tool": "Claude-4-Sonnet",
+          "toolReason": "Exzellent bei der Organisation von Informationen und Erstellung klarer Dokumentstrukturen",
+          "timeEstimate": "10 Minuten",
+          "prompt": "Du bist ein erfahrener technischer Redakteur. Denke schrittweise, um diesen Inhalt zu organisieren.\n\nStrukturiere diesen Inhalt neu mit:\n1. Klarer Dokumenthierarchie (H1, H2, H3)\n2. Professioneller Formatierung (Listen, Tabellen, Hervorhebungen)\n3. Logischem Fluss und Übergängen\n4. Konsistentem Ton und Stil\n\nInhalt: [füge deinen unstrukturierten Inhalt hier ein]\n\nWenn nötig, stelle klärende Fragen über Dokumenttyp, Zielgruppe oder gewünschten Ton.\n\nFormatiere mit Markdown:\n- **Fett** für Schlüsselpunkte\n- Listen für mehrere Punkte\n- Tabellen für Daten\n- > Hinweise für wichtige Notizen",
+          "tips": [
+            "Mit klarer Dokumentgliederung vor Formatierung beginnen",
+            "Konsistente Überschriftenstile durchgehend verwenden"
+          ]
+        }
+      ]
     }
   }
 }

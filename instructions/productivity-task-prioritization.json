@@ -24,6 +24,22 @@
           ]
         }
       ]
+    },
+    "de": {
+      "steps": [
+        {
+          "title": "Aufgabenanalyse und Priorisierung",
+          "description": "Aufgaben mit mehreren Priorisierungsrahmen kategorisieren",
+          "tool": "Claude-4-Opus",
+          "toolReason": "Überlegene analytische Fähigkeiten für komplexe Priorisierungsentscheidungen",
+          "timeEstimate": "15 Minuten",
+          "prompt": "Du bist ein Produktivitätsberater. Denke schrittweise durch diese Aufgaben, um sie effektiv zu priorisieren.\n\nAnalysiere meine Aufgaben mit der Eisenhower-Matrix:\n1. Dringend + Wichtig (zuerst erledigen)\n2. Wichtig, nicht dringend (planen)\n3. Dringend, nicht wichtig (delegieren)\n4. Weder dringend noch wichtig (eliminieren)\n\nFür jede Aufgabe berücksichtige auch Impact-Level, benötigten Aufwand, Abhängigkeiten und Fristen.\n\nAufgaben: [liste alle deine Aufgaben hier auf]\n\nWenn du mehr Kontext über verfügbare Zeit, Ziele oder Fristen benötigst, stelle klärende Fragen.\n\nFormatiere als:\n**Zuerst erledigen**: [dringende + wichtige Aufgaben]\n**Planen**: [wichtig aber nicht dringend]\n**Delegieren/Schnelle Erfolge**: [dringend aber nicht wichtig]\n**Eliminieren**: [geringe Wertaufgaben]\n\n**Empfohlener Tagesplan**: [zeitlich geblockter Zeitplan]",
+          "tips": [
+            "Realistisch über deine tatsächlich verfügbare Zeit sein",
+            "Fokus auf hohe Wirkung, geringer Aufwand für schnelle Erfolge"
+          ]
+        }
+      ]
     }
   }
 }

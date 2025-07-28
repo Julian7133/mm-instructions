@@ -24,6 +24,22 @@
           ]
         }
       ]
+    },
+    "de": {
+      "steps": [
+        {
+          "title": "Teststrategie und Implementierung",
+          "description": "Code analysieren und umfassende Testsuite generieren",
+          "tool": "Claude-4-Sonnet",
+          "toolReason": "Überlegene Code-Analyse und systematischer Testansatz",
+          "timeEstimate": "20 Minuten",
+          "prompt": "Du bist ein leitender Software-Ingenieur, der sich auf Testen spezialisiert hat. Denke schrittweise, um umfassende Tests zu erstellen.\n\nAnalysiere diesen Code und erstelle Tests:\n1. Alle Code-Pfade und Grenzfälle identifizieren\n2. Testdaten für normale und Grenzbedingungen entwerfen\n3. Mocking-Strategie für Abhängigkeiten planen\n4. Vollständige Testimplementierung schreiben\n\nZu testender Code: [füge deine Funktion/Klasse/Modul hier ein]\n\nWenn du Details über Test-Framework, Sprache oder spezifische Anforderungen benötigst, stelle klärende Fragen.\n\nStelle bereit:\n**Teststrategie**: [was getestet werden muss und warum]\n**Testfälle**: [spezifische zu abdeckende Szenarien]\n**Mock-Strategie**: [was gemockt werden soll und wie]\n**Vollständiger Test-Code**: [funktionierende Test-Implementierung]\n**Abdeckungsanalyse**: [erwartete Abdeckung und kritische Pfade]\n\nStelle sicher, dass Tests:\n- Unabhängig und wiederholbar sind\n- Schnelle Ausführung haben\n- Klare Fehlermeldungen liefern",
+          "tips": [
+            "Verhalten testen, nicht Implementierungsdetails",
+            "Sowohl positive als auch negative Testfälle einschließen"
+          ]
+        }
+      ]
     }
   }
 }
