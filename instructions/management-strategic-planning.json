@@ -1,7 +1,5 @@
 {
   "id": "management-strategic-planning",
-  "title": "AI-Enhanced Strategic Planning and Goal Setting",
-  "description": "Develop comprehensive strategic plans with clear objectives, actionable tactics, and measurable outcomes",
   "category": "management",
   "difficulty": "advanced",
   "timeEstimate": "40 minutes",
@@ -10,6 +8,8 @@
   "source": "Based on strategic planning frameworks from McKinsey, BCG strategic planning guides, and OKR methodology",
   "languages": {
     "en": {
+      "title": "AI-Enhanced Strategic Planning and Goal Setting",
+      "description": "Develop comprehensive strategic plans with clear objectives, actionable tactics, and measurable outcomes",
       "steps": [
         {
           "title": "Strategic Analysis and Plan Development",
@@ -26,6 +26,8 @@
       ]
     },
     "de": {
+      "title": "KI-verstärkte strategische Planung und Zielsetzung",
+      "description": "Umfassende strategische Pläne mit klaren Zielen, umsetzbaren Taktiken und messbaren Ergebnissen entwickeln",
       "steps": [
         {
           "title": "Strategische Analyse und Planentwicklung",

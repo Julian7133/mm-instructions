@@ -1,7 +1,5 @@
 {
   "id": "productivity-presentation-creation",
-  "title": "AI-Powered Presentation Design & Content Creation",
-  "description": "Create compelling presentations with optimized structure and messaging",
   "category": "productivity",
   "difficulty": "intermediate",
   "timeEstimate": "20 minutes",
@@ -10,6 +8,8 @@
   "source": "Based on presentation design principles from Slide:ology and TED Talk strategies",
   "languages": {
     "en": {
+      "title": "AI-Powered Presentation Design & Content Creation",
+      "description": "Create compelling presentations with optimized structure and messaging",
       "steps": [
         {
           "title": "Presentation Strategy and Content",
@@ -26,6 +26,8 @@
       ]
     },
     "de": {
+      "title": "KI-gestützte Präsentationsgestaltung und Inhaltserstellung",
+      "description": "Überzeugende Präsentationen mit optimierter Struktur und Botschaftsgestaltung erstellen",
       "steps": [
         {
           "title": "Präsentationsstrategie und Inhalt",

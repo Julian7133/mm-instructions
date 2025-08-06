@@ -1,7 +1,5 @@
 {
   "id": "productivity-research-gathering",
-  "title": "AI-Enhanced Research & Information Synthesis",
-  "description": "Systematically gather and synthesize information from multiple sources",
   "category": "productivity",
   "difficulty": "intermediate",
   "timeEstimate": "25 minutes",
@@ -10,6 +8,8 @@
   "source": "Based on academic research methods and information synthesis techniques from librarian guides",
   "languages": {
     "en": {
+      "title": "AI-Enhanced Research & Information Synthesis",
+      "description": "Systematically gather and synthesize information from multiple sources",
       "steps": [
         {
           "title": "Research Strategy and Synthesis",
@@ -26,6 +26,8 @@
       ]
     },
     "de": {
+      "title": "KI-verstärkte Forschung und Informationssynthese",
+      "description": "Informationen aus mehreren Quellen systematisch sammeln und synthetisieren",
       "steps": [
         {
           "title": "Forschungsstrategie und Synthese",

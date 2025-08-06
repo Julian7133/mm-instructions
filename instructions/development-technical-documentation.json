@@ -1,7 +1,5 @@
 {
   "id": "development-technical-documentation",
-  "title": "Comprehensive Technical Documentation Creation",
-  "description": "Create clear, maintainable technical documentation for developers and stakeholders",
   "category": "development",
   "difficulty": "intermediate",
   "timeEstimate": "25 minutes",
@@ -10,6 +8,8 @@
   "source": "Based on documentation practices from GitLab's docs and Atlassian's technical writing guide",
   "languages": {
     "en": {
+      "title": "Comprehensive Technical Documentation Creation",
+      "description": "Create clear, maintainable technical documentation for developers and stakeholders",
       "steps": [
         {
           "title": "Technical Documentation Strategy and Creation",
@@ -26,6 +26,8 @@
       ]
     },
     "de": {
+      "title": "Umfassende technische Dokumentationserstellung",
+      "description": "Klare, wartbare technische Dokumentation für Entwickler und Stakeholder erstellen",
       "steps": [
         {
           "title": "Technische Dokumentationsstrategie und -erstellung",

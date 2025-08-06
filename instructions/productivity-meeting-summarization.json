@@ -1,7 +1,5 @@
 {
   "id": "productivity-meeting-summarization",
-  "title": "AI-Powered Meeting Summarization & Action Items",
-  "description": "Transform meeting recordings and notes into actionable summaries with clear next steps",
   "category": "productivity",
   "difficulty": "beginner",
   "timeEstimate": "10 minutes",
@@ -10,6 +8,8 @@
   "source": "Based on prompt engineering techniques from Reddit r/PromptEngineering and Anthropic's Claude prompting guide",
   "languages": {
     "en": {
+      "title": "AI-Powered Meeting Summarization & Action Items",
+      "description": "Transform meeting recordings and notes into actionable summaries with clear next steps",
       "steps": [
         {
           "title": "Meeting Summary and Action Items",
@@ -26,6 +26,8 @@
       ]
     },
     "de": {
+      "title": "KI-gestützte Meeting-Zusammenfassung und Aufgabenliste",
+      "description": "Meeting-Aufzeichnungen und Notizen in umsetzbare Zusammenfassungen mit klaren nächsten Schritten verwandeln",
       "steps": [
         {
           "title": "Meeting-Zusammenfassung und Aufgaben",

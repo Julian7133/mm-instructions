@@ -1,7 +1,5 @@
 {
   "id": "management-team-feedback-coaching",
-  "title": "Effective Team Feedback and Coaching Conversations",
-  "description": "Deliver impactful feedback and coaching that drives team performance and development",
   "category": "management",
   "difficulty": "intermediate",
   "timeEstimate": "20 minutes",
@@ -10,6 +8,8 @@
   "source": "Based on coaching techniques from 'Crucial Conversations' and Google's management training",
   "languages": {
     "en": {
+      "title": "Effective Team Feedback and Coaching Conversations",
+      "description": "Deliver impactful feedback and coaching that drives team performance and development",
       "steps": [
         {
           "title": "Feedback Preparation and Conversation Guide",
@@ -26,6 +26,8 @@
       ]
     },
     "de": {
+      "title": "Effektive Team-Feedback und Coaching-Gespräche",
+      "description": "Wirkungsvolles Feedback und Coaching liefern, das Teamleistung und Entwicklung vorantreibt",
       "steps": [
         {
           "title": "Feedback-Vorbereitung und Gesprächsleitfaden",

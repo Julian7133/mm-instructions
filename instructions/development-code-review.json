@@ -1,7 +1,5 @@
 {
   "id": "development-code-review",
-  "title": "AI-Assisted Code Review",
-  "description": "Comprehensive code review strategies using AI tools",
   "category": "development",
   "difficulty": "advanced",
   "timeEstimate": "30 minutes",
@@ -9,6 +7,8 @@
   "tools": ["Claude", "ChatGPT", "GitHub Copilot"],
   "languages": {
     "en": {
+      "title": "AI-Assisted Code Review",
+      "description": "Comprehensive code review strategies using AI tools",
       "steps": [
         {
           "title": "Code Quality Analysis",
@@ -39,6 +39,8 @@
       ]
     },
     "de": {
+      "title": "KI-unterstützte Code-Begutachtung",
+      "description": "Umfassende Code-Review-Strategien mit KI-Tools",
       "steps": [
         {
           "title": "Code-Qualitätsanalyse",

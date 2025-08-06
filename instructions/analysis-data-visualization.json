@@ -1,7 +1,5 @@
 {
   "id": "analysis-data-visualization",
-  "title": "AI-Powered Data Visualization and Chart Creation",
-  "description": "Create compelling data visualizations with optimal chart selection and design principles",
   "category": "analysis",
   "difficulty": "intermediate",
   "timeEstimate": "20 minutes",
@@ -10,6 +8,8 @@
   "source": "Based on data visualization principles from Edward Tufte's work and Storytelling with Data",
   "languages": {
     "en": {
+      "title": "AI-Powered Data Visualization and Chart Creation",
+      "description": "Create compelling data visualizations with optimal chart selection and design principles",
       "steps": [
         {
           "title": "Data Visualization Strategy and Implementation",
@@ -26,6 +26,8 @@
       ]
     },
     "de": {
+      "title": "KI-gestützte Datenvisualisierung und Diagrammerstellung",
+      "description": "Überzeugende Datenvisualisierungen mit optimaler Diagrammauswahl und Designprinzipien erstellen",
       "steps": [
         {
           "title": "Datenvisualisierungsstrategie und Umsetzung",

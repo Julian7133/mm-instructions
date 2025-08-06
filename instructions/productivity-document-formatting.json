@@ -1,7 +1,5 @@
 {
   "id": "productivity-document-formatting",
-  "title": "Professional Document Structure & Formatting",
-  "description": "Transform disorganized content into polished, professional documents",
   "category": "productivity",
   "difficulty": "beginner",
   "timeEstimate": "10 minutes",
@@ -10,6 +8,8 @@
   "source": "Based on technical writing best practices from Medium and content strategy guides",
   "languages": {
     "en": {
+      "title": "Professional Document Structure & Formatting",
+      "description": "Transform disorganized content into polished, professional documents",
       "steps": [
         {
           "title": "Document Structure and Formatting",
@@ -26,6 +26,8 @@
       ]
     },
     "de": {
+      "title": "Professionelle Dokumentstruktur und Formatierung",
+      "description": "Unorganisierte Inhalte in polierte, professionelle Dokumente verwandeln",
       "steps": [
         {
           "title": "Dokumentstruktur und Formatierung",

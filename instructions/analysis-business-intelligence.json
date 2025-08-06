@@ -1,7 +1,5 @@
 {
   "id": "analysis-business-intelligence",
-  "title": "AI-Driven Business Intelligence Report Generation",
-  "description": "Create comprehensive business intelligence reports with actionable insights and strategic recommendations",
   "category": "analysis",
   "difficulty": "advanced",
   "timeEstimate": "30 minutes",
@@ -10,6 +8,8 @@
   "source": "Based on BI methodologies from Harvard Business Review and McKinsey Analytics insights",
   "languages": {
     "en": {
+      "title": "AI-Driven Business Intelligence Report Generation",
+      "description": "Create comprehensive business intelligence reports with actionable insights and strategic recommendations",
       "steps": [
         {
           "title": "Business Intelligence Analysis and Reporting",
@@ -26,6 +26,8 @@
       ]
     },
     "de": {
+      "title": "KI-gestützte Business Intelligence Berichtserstellung",
+      "description": "Umfassende Business Intelligence Berichte mit umsetzbaren Erkenntnissen und strategischen Empfehlungen erstellen",
       "steps": [
         {
           "title": "Business Intelligence Analyse und Berichterstattung",

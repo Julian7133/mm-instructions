@@ -1,7 +1,5 @@
 {
   "id": "productivity-task-prioritization",
-  "title": "AI-Assisted Task Prioritization & Time Management",
-  "description": "Systematically organize and prioritize tasks using proven frameworks",
   "category": "productivity",
   "difficulty": "intermediate",
   "timeEstimate": "15 minutes",
@@ -10,6 +8,8 @@
   "source": "Based on Eisenhower Matrix and GTD methodology from Reddit r/productivity",
   "languages": {
     "en": {
+      "title": "AI-Assisted Task Prioritization & Time Management",
+      "description": "Systematically organize and prioritize tasks using proven frameworks",
       "steps": [
         {
           "title": "Task Analysis and Prioritization",
@@ -26,6 +26,8 @@
       ]
     },
     "de": {
+      "title": "KI-unterstützte Aufgabenpriorisierung und Zeitmanagement",
+      "description": "Aufgaben mit bewährten Rahmenwerken systematisch organisieren und priorisieren",
       "steps": [
         {
           "title": "Aufgabenanalyse und Priorisierung",

@@ -1,7 +1,5 @@
 {
   "id": "analysis-market-research",
-  "title": "Comprehensive AI-Enhanced Market Research Analysis",
-  "description": "Conduct thorough market research with competitive analysis and strategic market insights",
   "category": "analysis",
   "difficulty": "advanced",
   "timeEstimate": "35 minutes",
@@ -10,6 +8,8 @@
   "source": "Based on market research methodologies from Nielsen, McKinsey Market Research, and academic research guides",
   "languages": {
     "en": {
+      "title": "Comprehensive AI-Enhanced Market Research Analysis",
+      "description": "Conduct thorough market research with competitive analysis and strategic market insights",
       "steps": [
         {
           "title": "Market Research Strategy and Analysis",
@@ -26,6 +26,8 @@
       ]
     },
     "de": {
+      "title": "Umfassende KI-verstärkte Marktforschungsanalyse",
+      "description": "Gründliche Marktforschung mit Wettbewerbsanalyse und strategischen Markterkenntnissen durchführen",
       "steps": [
         {
           "title": "Marktforschungsstrategie und -analyse",

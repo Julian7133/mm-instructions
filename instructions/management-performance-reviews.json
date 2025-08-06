@@ -1,7 +1,5 @@
 {
   "id": "management-performance-reviews",
-  "title": "AI-Assisted Performance Review Writing and Evaluation",
-  "description": "Create comprehensive, fair performance reviews with specific feedback and development plans",
   "category": "management",
   "difficulty": "advanced",
   "timeEstimate": "25 minutes",
@@ -10,6 +8,8 @@
   "source": "Based on performance management best practices from Harvard Business Review and SHRM guidelines",
   "languages": {
     "en": {
+      "title": "AI-Assisted Performance Review Writing and Evaluation",
+      "description": "Create comprehensive, fair performance reviews with specific feedback and development plans",
       "steps": [
         {
           "title": "Performance Assessment and Review Writing",
@@ -26,6 +26,8 @@
       ]
     },
     "de": {
+      "title": "KI-unterstützte Leistungsbeurteilungsschreibung und -bewertung",
+      "description": "Umfassende, faire Leistungsbeurteilungen mit spezifischem Feedback und Entwicklungsplänen erstellen",
       "steps": [
         {
           "title": "Leistungsbewertung und Beurteilungsschreibung",

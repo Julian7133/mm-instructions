@@ -1,7 +1,5 @@
 {
   "id": "communication-email-writing",
-  "title": "Professional Email Writing",
-  "description": "AI-assisted techniques for crafting clear, professional emails",
   "category": "communication",
   "difficulty": "beginner",
   "timeEstimate": "15 minutes",
@@ -9,6 +7,8 @@
   "tools": ["ChatGPT", "Claude", "Grammarly"],
   "languages": {
     "en": {
+      "title": "Professional Email Writing",
+      "description": "AI-assisted techniques for crafting clear, professional emails",
       "steps": [
         {
           "title": "Email Structure Planning",
@@ -39,6 +39,8 @@
       ]
     },
     "de": {
+      "title": "Professionelles E-Mail-Schreiben",
+      "description": "KI-unterstützte Techniken für das Verfassen klarer, professioneller E-Mails",
       "steps": [
         {
           "title": "E-Mail-Strukturplanung",
