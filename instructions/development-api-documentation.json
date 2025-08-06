@@ -1,7 +1,5 @@
 {
   "id": "development-api-documentation",
-  "title": "Comprehensive API Documentation Generation",
-  "description": "Create developer-friendly API documentation with examples and integration guides",
   "category": "development",
   "difficulty": "intermediate",
   "timeEstimate": "25 minutes",
@@ -10,6 +8,8 @@
   "source": "Based on API documentation best practices from Stripe, Twilio, and OpenAPI specification guides",
   "languages": {
     "en": {
+      "title": "Comprehensive API Documentation Generation",
+      "description": "Create developer-friendly API documentation with examples and integration guides",
       "steps": [
         {
           "title": "API Documentation Creation",
@@ -26,6 +26,8 @@
       ]
     },
     "de": {
+      "title": "Umfassende API-Dokumentationserstellung",
+      "description": "Entwicklerfreundliche API-Dokumentation mit Beispielen und Integrationsleitfäden erstellen",
       "steps": [
         {
           "title": "API-Dokumentationserstellung",

@@ -1,7 +1,5 @@
 {
   "id": "productivity-email-automation",
-  "title": "AI-Powered Email Automation and Filtering Systems",
-  "description": "Create intelligent email workflows and filtering systems for maximum productivity",
   "category": "productivity",
   "difficulty": "intermediate",
   "timeEstimate": "20 minutes",
@@ -10,6 +8,8 @@
   "source": "Based on email productivity methods from Reddit r/productivity and Gmail automation guides",
   "languages": {
     "en": {
+      "title": "AI-Powered Email Automation and Filtering Systems",
+      "description": "Create intelligent email workflows and filtering systems for maximum productivity",
       "steps": [
         {
           "title": "Email Automation Setup",
@@ -26,6 +26,8 @@
       ]
     },
     "de": {
+      "title": "KI-gestützte E-Mail-Automatisierung und Filtersysteme",
+      "description": "Intelligente E-Mail-Workflows und Filtersysteme für maximale Produktivität erstellen",
       "steps": [
         {
           "title": "E-Mail-Automatisierung einrichten",

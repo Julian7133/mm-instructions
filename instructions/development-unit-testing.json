@@ -1,7 +1,5 @@
 {
   "id": "development-unit-testing",
-  "title": "AI-Assisted Unit Testing and Test Case Generation",
-  "description": "Create comprehensive unit tests with optimal coverage and maintainable test architecture",
   "category": "development",
   "difficulty": "intermediate",
   "timeEstimate": "20 minutes",
@@ -10,6 +8,8 @@
   "source": "Based on TDD practices from Martin Fowler's blog and testing best practices from Kent Beck",
   "languages": {
     "en": {
+      "title": "AI-Assisted Unit Testing and Test Case Generation",
+      "description": "Create comprehensive unit tests with optimal coverage and maintainable test architecture",
       "steps": [
         {
           "title": "Test Strategy and Implementation",
@@ -26,6 +26,8 @@
       ]
     },
     "de": {
+      "title": "KI-unterstützte Unittests und Testfallerstellung",
+      "description": "Umfassende Unittests mit optimaler Abdeckung und wartbarer Testarchitektur erstellen",
       "steps": [
         {
           "title": "Teststrategie und Implementierung",

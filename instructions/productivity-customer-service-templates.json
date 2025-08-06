@@ -1,7 +1,5 @@
 {
   "id": "productivity-customer-service-templates",
-  "title": "AI-Generated Customer Service Response Templates",
-  "description": "Create personalized, professional customer service responses for common scenarios",
   "category": "productivity",
   "difficulty": "beginner",
   "timeEstimate": "15 minutes",
@@ -10,6 +8,8 @@
   "source": "Based on customer service best practices from Zendesk and Help Scout guides",
   "languages": {
     "en": {
+      "title": "AI-Generated Customer Service Response Templates",
+      "description": "Create personalized, professional customer service responses for common scenarios",
       "steps": [
         {
           "title": "Customer Service Template Creation",
@@ -26,6 +26,8 @@
       ]
     },
     "de": {
+      "title": "KI-generierte Kundenservice-Antwortvorlagen",
+      "description": "Personalisierte, professionelle Kundenservice-Antworten für häufige Szenarien erstellen",
       "steps": [
         {
           "title": "Kundenservice-Vorlagenerstellung",

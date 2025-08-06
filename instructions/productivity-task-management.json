@@ -1,7 +1,5 @@
 {
   "id": "productivity-task-management",
-  "title": "Effective Task Management",
-  "description": "AI-powered strategies for organizing and prioritizing tasks",
   "category": "productivity",
   "difficulty": "intermediate",
   "timeEstimate": "20 minutes",
@@ -9,6 +7,8 @@
   "tools": ["ChatGPT", "Claude", "Notion"],
   "languages": {
     "en": {
+      "title": "Effective Task Management",
+      "description": "AI-powered strategies for organizing and prioritizing tasks",
       "steps": [
         {
           "title": "Task Analysis",
@@ -26,6 +26,8 @@
       ]
     },
     "de": {
+      "title": "Effektives Aufgabenmanagement",
+      "description": "KI-gestützte Strategien zur Organisation und Priorisierung von Aufgaben",
       "steps": [
         {
           "title": "Aufgabenanalyse",

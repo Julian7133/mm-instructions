@@ -1,7 +1,5 @@
 {
   "id": "development-debugging-strategies",
-  "title": "AI-Enhanced Debugging and Error Resolution",
-  "description": "Systematically diagnose and resolve complex bugs using proven debugging methodologies",
   "category": "development",
   "difficulty": "advanced",
   "timeEstimate": "20 minutes",
@@ -10,6 +8,8 @@
   "source": "Based on debugging techniques from 'The Practice of Programming' and Google's debugging guide",
   "languages": {
     "en": {
+      "title": "AI-Enhanced Debugging and Error Resolution",
+      "description": "Systematically diagnose and resolve complex bugs using proven debugging methodologies",
       "steps": [
         {
           "title": "Systematic Bug Analysis and Resolution",
@@ -26,6 +26,8 @@
       ]
     },
     "de": {
+      "title": "KI-verstärktes Debugging und Fehlerbehebung",
+      "description": "Komplexe Fehler systematisch diagnostizieren und beheben mit bewährten Debugging-Methodologien",
       "steps": [
         {
           "title": "Systematische Fehleranalyse und -behebung",
